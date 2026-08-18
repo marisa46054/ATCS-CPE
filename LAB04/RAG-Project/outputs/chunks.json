@@ -1,0 +1,1352 @@
+[
+  {
+    "chunk_id": 0,
+    "qa_id": 0,
+    "category": "Basic Principles of Weight Loss",
+    "question": "How does sustainable weight loss work in principle?",
+    "answer": "The core is consistently creating a slight negative energy balance, meaning consuming fewer calories than the body uses daily, without needing a severe calorie deficit that puts the body in starvation mode or causes muscle loss. A more sustainable approach involves long-term behavioral changes, such as choosing high-nutrient, lower-calorie foods, increasing protein and fiber for prolonged satiety, and making gradual adjustments without completely cutting out any food groups.",
+    "text": "Question: How does sustainable weight loss work in principle? Answer: The core is consistently creating a slight negative energy balance, meaning consuming fewer calories than the body uses daily, without needing a severe calorie deficit that puts the body in starvation mode or causes muscle loss. A more sustainable approach involves long-term behavioral changes, such as choosing high-nutrient, lo",
+    "part_idx": 0,
+    "line_no": 12
+  },
+  {
+    "chunk_id": 1,
+    "qa_id": 0,
+    "category": "Basic Principles of Weight Loss",
+    "question": "How does sustainable weight loss work in principle?",
+    "answer": "The core is consistently creating a slight negative energy balance, meaning consuming fewer calories than the body uses daily, without needing a severe calorie deficit that puts the body in starvation mode or causes muscle loss. A more sustainable approach involves long-term behavioral changes, such as choosing high-nutrient, lower-calorie foods, increasing protein and fiber for prolonged satiety, and making gradual adjustments without completely cutting out any food groups.",
+    "text": "vioral changes, such as choosing high-nutrient, lower-calorie foods, increasing protein and fiber for prolonged satiety, and making gradual adjustments without completely cutting out any food groups.",
+    "part_idx": 1,
+    "line_no": 12
+  },
+  {
+    "chunk_id": 2,
+    "qa_id": 1,
+    "category": "Basic Principles of Weight Loss",
+    "question": "What are the negative effects of losing weight too fast?",
+    "answer": "Very rapid weight loss is usually due to severe calorie restriction, which risks losing muscle mass instead of fat. It lowers the basal metabolic rate, causes intense hunger that can lead to binge eating, and increases the chance of weight rebound. It can also cause nutrient deficiencies, dizziness, fatigue, and hair loss. A safe rate is generally a steady, long-term reduction rather than rapid short-term weight loss.",
+    "text": "Question: What are the negative effects of losing weight too fast? Answer: Very rapid weight loss is usually due to severe calorie restriction, which risks losing muscle mass instead of fat. It lowers the basal metabolic rate, causes intense hunger that can lead to binge eating, and increases the chance of weight rebound. It can also cause nutrient deficiencies, dizziness, fatigue, and hair loss. ",
+    "part_idx": 0,
+    "line_no": 19
+  },
+  {
+    "chunk_id": 3,
+    "qa_id": 1,
+    "category": "Basic Principles of Weight Loss",
+    "question": "What are the negative effects of losing weight too fast?",
+    "answer": "Very rapid weight loss is usually due to severe calorie restriction, which risks losing muscle mass instead of fat. It lowers the basal metabolic rate, causes intense hunger that can lead to binge eating, and increases the chance of weight rebound. It can also cause nutrient deficiencies, dizziness, fatigue, and hair loss. A safe rate is generally a steady, long-term reduction rather than rapid short-term weight loss.",
+    "text": " deficiencies, dizziness, fatigue, and hair loss. A safe rate is generally a steady, long-term reduction rather than rapid short-term weight loss.",
+    "part_idx": 1,
+    "line_no": 19
+  },
+  {
+    "chunk_id": 4,
+    "qa_id": 2,
+    "category": "Basic Principles of Weight Loss",
+    "question": "Why do some people eat very little but still not lose weight?",
+    "answer": "There are many factors, such as underestimating the actual amount of food eaten, insufficient sleep disrupting hunger/satiety hormones, chronic stress increasing cortisol, hypothyroidism, certain medications, or even weight fluctuations due to water retention. Keeping a detailed food diary or consulting a doctor for underlying causes can help.",
+    "text": "Question: Why do some people eat very little but still not lose weight? Answer: There are many factors, such as underestimating the actual amount of food eaten, insufficient sleep disrupting hunger/satiety hormones, chronic stress increasing cortisol, hypothyroidism, certain medications, or even weight fluctuations due to water retention. Keeping a detailed food diary or consulting a doctor for un",
+    "part_idx": 0,
+    "line_no": 26
+  },
+  {
+    "chunk_id": 5,
+    "qa_id": 2,
+    "category": "Basic Principles of Weight Loss",
+    "question": "Why do some people eat very little but still not lose weight?",
+    "answer": "There are many factors, such as underestimating the actual amount of food eaten, insufficient sleep disrupting hunger/satiety hormones, chronic stress increasing cortisol, hypothyroidism, certain medications, or even weight fluctuations due to water retention. Keeping a detailed food diary or consulting a doctor for underlying causes can help.",
+    "text": " detailed food diary or consulting a doctor for underlying causes can help.",
+    "part_idx": 1,
+    "line_no": 26
+  },
+  {
+    "chunk_id": 6,
+    "qa_id": 3,
+    "category": "Basic Principles of Weight Loss",
+    "question": "What can Body Mass Index (BMI) tell you and what are its limitations?",
+    "answer": "BMI is calculated by dividing weight by height squared. It's used as a preliminary screening tool at a population level to assess disease risk but doesn't distinguish between muscle and fat mass. Therefore, it might misjudge highly muscular athletes or elderly people with low muscle mass. Looking at waist circumference, body fat percentage, and blood tests will provide a more complete picture.",
+    "text": "Question: What can Body Mass Index (BMI) tell you and what are its limitations? Answer: BMI is calculated by dividing weight by height squared. It's used as a preliminary screening tool at a population level to assess disease risk but doesn't distinguish between muscle and fat mass. Therefore, it might misjudge highly muscular athletes or elderly people with low muscle mass. Looking at waist circu",
+    "part_idx": 0,
+    "line_no": 33
+  },
+  {
+    "chunk_id": 7,
+    "qa_id": 3,
+    "category": "Basic Principles of Weight Loss",
+    "question": "What can Body Mass Index (BMI) tell you and what are its limitations?",
+    "answer": "BMI is calculated by dividing weight by height squared. It's used as a preliminary screening tool at a population level to assess disease risk but doesn't distinguish between muscle and fat mass. Therefore, it might misjudge highly muscular athletes or elderly people with low muscle mass. Looking at waist circumference, body fat percentage, and blood tests will provide a more complete picture.",
+    "text": "eople with low muscle mass. Looking at waist circumference, body fat percentage, and blood tests will provide a more complete picture.",
+    "part_idx": 1,
+    "line_no": 33
+  },
+  {
+    "chunk_id": 8,
+    "qa_id": 4,
+    "category": "Basic Principles of Weight Loss",
+    "question": "Eating fewer but larger meals vs. many small meals, which is better for weight loss?",
+    "answer": "Most research indicates that total daily calories matter more than meal frequency. Eating frequency does not significantly boost metabolism as commonly believed. You should choose a pattern that helps you easily control total food intake and prevents you from getting so hungry you overeat at the next meal. Some prefer 3 meals, while others prefer several smaller meals, depending on lifestyle and individual satiety.",
+    "text": "Question: Eating fewer but larger meals vs. many small meals, which is better for weight loss? Answer: Most research indicates that total daily calories matter more than meal frequency. Eating frequency does not significantly boost metabolism as commonly believed. You should choose a pattern that helps you easily control total food intake and prevents you from getting so hungry you overeat at the ",
+    "part_idx": 0,
+    "line_no": 40
+  },
+  {
+    "chunk_id": 9,
+    "qa_id": 4,
+    "category": "Basic Principles of Weight Loss",
+    "question": "Eating fewer but larger meals vs. many small meals, which is better for weight loss?",
+    "answer": "Most research indicates that total daily calories matter more than meal frequency. Eating frequency does not significantly boost metabolism as commonly believed. You should choose a pattern that helps you easily control total food intake and prevents you from getting so hungry you overeat at the next meal. Some prefer 3 meals, while others prefer several smaller meals, depending on lifestyle and individual satiety.",
+    "text": "nts you from getting so hungry you overeat at the next meal. Some prefer 3 meals, while others prefer several smaller meals, depending on lifestyle and individual satiety.",
+    "part_idx": 1,
+    "line_no": 40
+  },
+  {
+    "chunk_id": 10,
+    "qa_id": 5,
+    "category": "Basic Principles of Weight Loss",
+    "question": "How necessary is calorie counting?",
+    "answer": "It is not necessary for everyone, but it is a tool that helps create awareness of actual intake, especially at first when you are not used to portion sizes. An equally effective alternative is focusing on plate proportions: half a plate of vegetables, a quarter protein, and a quarter complex carbohydrates, which controls energy without needing to calculate numbers every meal.",
+    "text": "Question: How necessary is calorie counting? Answer: It is not necessary for everyone, but it is a tool that helps create awareness of actual intake, especially at first when you are not used to portion sizes. An equally effective alternative is focusing on plate proportions: half a plate of vegetables, a quarter protein, and a quarter complex carbohydrates, which controls energy without needing t",
+    "part_idx": 0,
+    "line_no": 47
+  },
+  {
+    "chunk_id": 11,
+    "qa_id": 5,
+    "category": "Basic Principles of Weight Loss",
+    "question": "How necessary is calorie counting?",
+    "answer": "It is not necessary for everyone, but it is a tool that helps create awareness of actual intake, especially at first when you are not used to portion sizes. An equally effective alternative is focusing on plate proportions: half a plate of vegetables, a quarter protein, and a quarter complex carbohydrates, which controls energy without needing to calculate numbers every meal.",
+    "text": "ohydrates, which controls energy without needing to calculate numbers every meal.",
+    "part_idx": 1,
+    "line_no": 47
+  },
+  {
+    "chunk_id": 12,
+    "qa_id": 6,
+    "category": "Basic Principles of Weight Loss",
+    "question": "What causes daily weight fluctuations?",
+    "answer": "Most of it comes from changes in body water, not fat. Factors include the amount of sodium and carbohydrates eaten the day before, the menstrual cycle, bowel movements, stress levels, and water intake. You should look at the weekly average trend rather than daily numbers for a more accurate assessment of progress.",
+    "text": "Question: What causes daily weight fluctuations? Answer: Most of it comes from changes in body water, not fat. Factors include the amount of sodium and carbohydrates eaten the day before, the menstrual cycle, bowel movements, stress levels, and water intake. You should look at the weekly average trend rather than daily numbers for a more accurate assessment of progress.",
+    "part_idx": 0,
+    "line_no": 54
+  },
+  {
+    "chunk_id": 13,
+    "qa_id": 7,
+    "category": "Basic Principles of Weight Loss",
+    "question": "Why is it easy to lose weight at first, but then it plateaus?",
+    "answer": "As you lose weight, a smaller body needs less energy. This causes the previously deficient calorie level to approach a new balance point. It is a normal mechanism, not a failure. Making minor adjustments to food intake or physical activity, or giving the body time to adapt by maintaining the same habits for a while, often helps resume weight loss.",
+    "text": "Question: Why is it easy to lose weight at first, but then it plateaus? Answer: As you lose weight, a smaller body needs less energy. This causes the previously deficient calorie level to approach a new balance point. It is a normal mechanism, not a failure. Making minor adjustments to food intake or physical activity, or giving the body time to adapt by maintaining the same habits for a while, of",
+    "part_idx": 0,
+    "line_no": 61
+  },
+  {
+    "chunk_id": 14,
+    "qa_id": 7,
+    "category": "Basic Principles of Weight Loss",
+    "question": "Why is it easy to lose weight at first, but then it plateaus?",
+    "answer": "As you lose weight, a smaller body needs less energy. This causes the previously deficient calorie level to approach a new balance point. It is a normal mechanism, not a failure. Making minor adjustments to food intake or physical activity, or giving the body time to adapt by maintaining the same habits for a while, often helps resume weight loss.",
+    "text": "apt by maintaining the same habits for a while, often helps resume weight loss.",
+    "part_idx": 1,
+    "line_no": 61
+  },
+  {
+    "chunk_id": 15,
+    "qa_id": 8,
+    "category": "Basic Principles of Weight Loss",
+    "question": "Does drinking water really help you lose weight?",
+    "answer": "It helps indirectly. Drinking water before meals can increase the feeling of fullness and slightly reduce the amount of food eaten. Furthermore, the body sometimes confuses hunger with thirst. Staying hydrated also helps overall metabolism and excretion, but it is not the main factor in fat loss itself.",
+    "text": "Question: Does drinking water really help you lose weight? Answer: It helps indirectly. Drinking water before meals can increase the feeling of fullness and slightly reduce the amount of food eaten. Furthermore, the body sometimes confuses hunger with thirst. Staying hydrated also helps overall metabolism and excretion, but it is not the main factor in fat loss itself.",
+    "part_idx": 0,
+    "line_no": 68
+  },
+  {
+    "chunk_id": 16,
+    "qa_id": 9,
+    "category": "Basic Principles of Weight Loss",
+    "question": "How is sleep related to weight loss?",
+    "answer": "Lack of sleep disrupts ghrelin (which stimulates hunger) and leptin (which signals satiety), increasing cravings for high-calorie foods, especially sweets and fried foods. It also reduces self-control and increases stress. Adequate sleep is therefore a fundamental factor that is often overlooked.",
+    "text": "Question: How is sleep related to weight loss? Answer: Lack of sleep disrupts ghrelin (which stimulates hunger) and leptin (which signals satiety), increasing cravings for high-calorie foods, especially sweets and fried foods. It also reduces self-control and increases stress. Adequate sleep is therefore a fundamental factor that is often overlooked.",
+    "part_idx": 0,
+    "line_no": 75
+  },
+  {
+    "chunk_id": 17,
+    "qa_id": 10,
+    "category": "Basic Principles of Weight Loss",
+    "question": "Is spot reduction (e.g., losing belly fat only) possible?",
+    "answer": "It is not physiologically possible. Spot exercises strengthen the muscles in that area but do not burn fat specifically there. The body burns fat according to patterns determined by individual genetics and hormones. Overall fat reduction through energy balance and full-body exercise is the effective approach.",
+    "text": "Question: Is spot reduction (e.g., losing belly fat only) possible? Answer: It is not physiologically possible. Spot exercises strengthen the muscles in that area but do not burn fat specifically there. The body burns fat according to patterns determined by individual genetics and hormones. Overall fat reduction through energy balance and full-body exercise is the effective approach.",
+    "part_idx": 0,
+    "line_no": 82
+  },
+  {
+    "chunk_id": 18,
+    "qa_id": 11,
+    "category": "Basic Principles of Weight Loss",
+    "question": "What causes the yo-yo effect (weight regain after successful loss)?",
+    "answer": "It usually happens from using weight loss methods that are too restrictive to be sustained long-term. When returning to old eating habits, the weight comes back. Moreover, a body that has gone through severe starvation often temporarily lowers its metabolic rate and increases hunger hormones. Choosing a method you can maintain for life rather than extreme fasting reduces the chance of yo-yo dieting.",
+    "text": "Question: What causes the yo-yo effect (weight regain after successful loss)? Answer: It usually happens from using weight loss methods that are too restrictive to be sustained long-term. When returning to old eating habits, the weight comes back. Moreover, a body that has gone through severe starvation often temporarily lowers its metabolic rate and increases hunger hormones. Choosing a method yo",
+    "part_idx": 0,
+    "line_no": 89
+  },
+  {
+    "chunk_id": 19,
+    "qa_id": 11,
+    "category": "Basic Principles of Weight Loss",
+    "question": "What causes the yo-yo effect (weight regain after successful loss)?",
+    "answer": "It usually happens from using weight loss methods that are too restrictive to be sustained long-term. When returning to old eating habits, the weight comes back. Moreover, a body that has gone through severe starvation often temporarily lowers its metabolic rate and increases hunger hormones. Choosing a method you can maintain for life rather than extreme fasting reduces the chance of yo-yo dieting.",
+    "text": "nd increases hunger hormones. Choosing a method you can maintain for life rather than extreme fasting reduces the chance of yo-yo dieting.",
+    "part_idx": 1,
+    "line_no": 89
+  },
+  {
+    "chunk_id": 20,
+    "qa_id": 12,
+    "category": "Basic Principles of Weight Loss",
+    "question": "What is a healthy target for weight loss per week?",
+    "answer": "The general guideline recommended by many health organizations is a gradual and steady rate, which helps preserve muscle mass and reduces the chance of a rebound. The appropriate number varies depending on starting weight and individual physical condition, so you should consult a doctor or dietitian to set a suitable goal rather than using a fixed number.",
+    "text": "Question: What is a healthy target for weight loss per week? Answer: The general guideline recommended by many health organizations is a gradual and steady rate, which helps preserve muscle mass and reduces the chance of a rebound. The appropriate number varies depending on starting weight and individual physical condition, so you should consult a doctor or dietitian to set a suitable goal rather ",
+    "part_idx": 0,
+    "line_no": 96
+  },
+  {
+    "chunk_id": 21,
+    "qa_id": 12,
+    "category": "Basic Principles of Weight Loss",
+    "question": "What is a healthy target for weight loss per week?",
+    "answer": "The general guideline recommended by many health organizations is a gradual and steady rate, which helps preserve muscle mass and reduces the chance of a rebound. The appropriate number varies depending on starting weight and individual physical condition, so you should consult a doctor or dietitian to set a suitable goal rather than using a fixed number.",
+    "text": "doctor or dietitian to set a suitable goal rather than using a fixed number.",
+    "part_idx": 1,
+    "line_no": 96
+  },
+  {
+    "chunk_id": 22,
+    "qa_id": 13,
+    "category": "Basic Principles of Weight Loss",
+    "question": "Can stress really make you fat?",
+    "answer": "Yes, both directly and indirectly. Chronically high cortisol from stress stimulates cravings for high-energy foods and may contribute to abdominal fat storage. Stress also leads to lack of sleep, emotional eating, and having less time or motivation to exercise. Stress management is therefore an often overlooked part of weight management.",
+    "text": "Question: Can stress really make you fat? Answer: Yes, both directly and indirectly. Chronically high cortisol from stress stimulates cravings for high-energy foods and may contribute to abdominal fat storage. Stress also leads to lack of sleep, emotional eating, and having less time or motivation to exercise. Stress management is therefore an often overlooked part of weight management.",
+    "part_idx": 0,
+    "line_no": 103
+  },
+  {
+    "chunk_id": 23,
+    "qa_id": 14,
+    "category": "Choosing Proteins",
+    "question": "How does protein help with weight loss?",
+    "answer": "Protein provides longer satiety than equal calories of carbohydrates or fats because the body uses more energy to digest protein (thermic effect). It also helps preserve muscle mass while in a calorie deficit, preventing the basal metabolic rate from dropping as much as in low-protein weight loss. Lean protein sources like chicken breast, fish, eggs, and tofu are excellent choices for weight loss meals.",
+    "text": "Question: How does protein help with weight loss? Answer: Protein provides longer satiety than equal calories of carbohydrates or fats because the body uses more energy to digest protein (thermic effect). It also helps preserve muscle mass while in a calorie deficit, preventing the basal metabolic rate from dropping as much as in low-protein weight loss. Lean protein sources like chicken breast, f",
+    "part_idx": 0,
+    "line_no": 110
+  },
+  {
+    "chunk_id": 24,
+    "qa_id": 14,
+    "category": "Choosing Proteins",
+    "question": "How does protein help with weight loss?",
+    "answer": "Protein provides longer satiety than equal calories of carbohydrates or fats because the body uses more energy to digest protein (thermic effect). It also helps preserve muscle mass while in a calorie deficit, preventing the basal metabolic rate from dropping as much as in low-protein weight loss. Lean protein sources like chicken breast, fish, eggs, and tofu are excellent choices for weight loss meals.",
+    "text": " loss. Lean protein sources like chicken breast, fish, eggs, and tofu are excellent choices for weight loss meals.",
+    "part_idx": 1,
+    "line_no": 110
+  },
+  {
+    "chunk_id": 25,
+    "qa_id": 15,
+    "category": "Choosing Proteins",
+    "question": "How much protein should I eat per day when losing weight?",
+    "answer": "The appropriate amount depends on body weight, activity level, and goals, which should be assessed with a doctor or dietitian. Generally, during calorie reduction, a slightly higher proportion of protein is recommended to preserve muscle mass, but it shouldn't be increased extremely without evaluating kidney function or overall health first.",
+    "text": "Question: How much protein should I eat per day when losing weight? Answer: The appropriate amount depends on body weight, activity level, and goals, which should be assessed with a doctor or dietitian. Generally, during calorie reduction, a slightly higher proportion of protein is recommended to preserve muscle mass, but it shouldn't be increased extremely without evaluating kidney function or ov",
+    "part_idx": 0,
+    "line_no": 117
+  },
+  {
+    "chunk_id": 26,
+    "qa_id": 15,
+    "category": "Choosing Proteins",
+    "question": "How much protein should I eat per day when losing weight?",
+    "answer": "The appropriate amount depends on body weight, activity level, and goals, which should be assessed with a doctor or dietitian. Generally, during calorie reduction, a slightly higher proportion of protein is recommended to preserve muscle mass, but it shouldn't be increased extremely without evaluating kidney function or overall health first.",
+    "text": "extremely without evaluating kidney function or overall health first.",
+    "part_idx": 1,
+    "line_no": 117
+  },
+  {
+    "chunk_id": 27,
+    "qa_id": 16,
+    "category": "Choosing Proteins",
+    "question": "What is the difference in calories between lean and fatty meats?",
+    "answer": "Fatty cuts of meat are much higher in calories than lean cuts of the same amount because fat provides about twice as many calories per gram as protein. Choosing lean meats, removing the skin, or using cooking methods like boiling, steaming, or grilling instead of frying helps reduce overall calories while still providing high-quality protein.",
+    "text": "Question: What is the difference in calories between lean and fatty meats? Answer: Fatty cuts of meat are much higher in calories than lean cuts of the same amount because fat provides about twice as many calories per gram as protein. Choosing lean meats, removing the skin, or using cooking methods like boiling, steaming, or grilling instead of frying helps reduce overall calories while still prov",
+    "part_idx": 0,
+    "line_no": 124
+  },
+  {
+    "chunk_id": 28,
+    "qa_id": 16,
+    "category": "Choosing Proteins",
+    "question": "What is the difference in calories between lean and fatty meats?",
+    "answer": "Fatty cuts of meat are much higher in calories than lean cuts of the same amount because fat provides about twice as many calories per gram as protein. Choosing lean meats, removing the skin, or using cooking methods like boiling, steaming, or grilling instead of frying helps reduce overall calories while still providing high-quality protein.",
+    "text": "ing helps reduce overall calories while still providing high-quality protein.",
+    "part_idx": 1,
+    "line_no": 124
+  },
+  {
+    "chunk_id": 29,
+    "qa_id": 17,
+    "category": "Choosing Proteins",
+    "question": "How well can plant-based proteins like tofu and beans replace meat?",
+    "answer": "They are excellent substitutes and have the added benefit of containing fiber, which aids satiety and the digestive system. Dried legumes like black beans, red beans, or tofu provide decent protein per serving and have lower saturated fat than fatty meats. However, some plant proteins may not have a complete essential amino acid profile like animal proteins, so eating a variety of types is recommended.",
+    "text": "Question: How well can plant-based proteins like tofu and beans replace meat? Answer: They are excellent substitutes and have the added benefit of containing fiber, which aids satiety and the digestive system. Dried legumes like black beans, red beans, or tofu provide decent protein per serving and have lower saturated fat than fatty meats. However, some plant proteins may not have a complete esse",
+    "part_idx": 0,
+    "line_no": 131
+  },
+  {
+    "chunk_id": 30,
+    "qa_id": 17,
+    "category": "Choosing Proteins",
+    "question": "How well can plant-based proteins like tofu and beans replace meat?",
+    "answer": "They are excellent substitutes and have the added benefit of containing fiber, which aids satiety and the digestive system. Dried legumes like black beans, red beans, or tofu provide decent protein per serving and have lower saturated fat than fatty meats. However, some plant proteins may not have a complete essential amino acid profile like animal proteins, so eating a variety of types is recommended.",
+    "text": ", some plant proteins may not have a complete essential amino acid profile like animal proteins, so eating a variety of types is recommended.",
+    "part_idx": 1,
+    "line_no": 131
+  },
+  {
+    "chunk_id": 31,
+    "qa_id": 18,
+    "category": "Choosing Proteins",
+    "question": "Eggs are high in cholesterol; can I eat them every day while losing weight?",
+    "answer": "For people with normal heart health, current evidence does not support that egg cholesterol is as harmful as once thought. Eggs are a high-quality, affordable protein source that provides good satiety, making them suitable for weight loss. Those with high blood lipids or heart disease should consult a doctor for their appropriate intake.",
+    "text": "Question: Eggs are high in cholesterol; can I eat them every day while losing weight? Answer: For people with normal heart health, current evidence does not support that egg cholesterol is as harmful as once thought. Eggs are a high-quality, affordable protein source that provides good satiety, making them suitable for weight loss. Those with high blood lipids or heart disease should consult a doc",
+    "part_idx": 0,
+    "line_no": 138
+  },
+  {
+    "chunk_id": 32,
+    "qa_id": 18,
+    "category": "Choosing Proteins",
+    "question": "Eggs are high in cholesterol; can I eat them every day while losing weight?",
+    "answer": "For people with normal heart health, current evidence does not support that egg cholesterol is as harmful as once thought. Eggs are a high-quality, affordable protein source that provides good satiety, making them suitable for weight loss. Those with high blood lipids or heart disease should consult a doctor for their appropriate intake.",
+    "text": "blood lipids or heart disease should consult a doctor for their appropriate intake.",
+    "part_idx": 1,
+    "line_no": 138
+  },
+  {
+    "chunk_id": 33,
+    "qa_id": 19,
+    "category": "Choosing Proteins",
+    "question": "Do milk and dairy products help or hinder weight loss?",
+    "answer": "Milk and dairy provide beneficial protein and calcium, but their calories vary greatly (e.g., skim milk vs. sweetened condensed milk). Plain unsweetened yogurt is a great choice because it's high in protein and often has beneficial gut bacteria. Always read labels to avoid dairy products with high added sugars.",
+    "text": "Question: Do milk and dairy products help or hinder weight loss? Answer: Milk and dairy provide beneficial protein and calcium, but their calories vary greatly (e.g., skim milk vs. sweetened condensed milk). Plain unsweetened yogurt is a great choice because it's high in protein and often has beneficial gut bacteria. Always read labels to avoid dairy products with high added sugars.",
+    "part_idx": 0,
+    "line_no": 145
+  },
+  {
+    "chunk_id": 34,
+    "qa_id": 20,
+    "category": "Choosing Proteins",
+    "question": "Is eating too much protein dangerous?",
+    "answer": "For people with normal kidney function, eating slightly higher than normal protein is usually not dangerous in the short term. However, those with existing kidney disease must strictly limit their intake according to doctor's advice because the kidneys have to work harder to excrete protein metabolism waste. Eating excess protein without exercising doesn't result in more muscle gain either.",
+    "text": "Question: Is eating too much protein dangerous? Answer: For people with normal kidney function, eating slightly higher than normal protein is usually not dangerous in the short term. However, those with existing kidney disease must strictly limit their intake according to doctor's advice because the kidneys have to work harder to excrete protein metabolism waste. Eating excess protein without exer",
+    "part_idx": 0,
+    "line_no": 152
+  },
+  {
+    "chunk_id": 35,
+    "qa_id": 20,
+    "category": "Choosing Proteins",
+    "question": "Is eating too much protein dangerous?",
+    "answer": "For people with normal kidney function, eating slightly higher than normal protein is usually not dangerous in the short term. However, those with existing kidney disease must strictly limit their intake according to doctor's advice because the kidneys have to work harder to excrete protein metabolism waste. Eating excess protein without exercising doesn't result in more muscle gain either.",
+    "text": "tabolism waste. Eating excess protein without exercising doesn't result in more muscle gain either.",
+    "part_idx": 1,
+    "line_no": 152
+  },
+  {
+    "chunk_id": 36,
+    "qa_id": 21,
+    "category": "Choosing Proteins",
+    "question": "Is whey protein necessary for weight loss?",
+    "answer": "Not necessary. It is simply a convenient supplement when you can't get enough protein from whole foods in each meal. Regular foods like eggs, fish, lean meats, and beans can provide complete protein as well. If using protein powder, check for added sugars and artificial ingredients.",
+    "text": "Question: Is whey protein necessary for weight loss? Answer: Not necessary. It is simply a convenient supplement when you can't get enough protein from whole foods in each meal. Regular foods like eggs, fish, lean meats, and beans can provide complete protein as well. If using protein powder, check for added sugars and artificial ingredients.",
+    "part_idx": 0,
+    "line_no": 159
+  },
+  {
+    "chunk_id": 37,
+    "qa_id": 22,
+    "category": "Choosing Proteins",
+    "question": "How do different types of fish compare for weight loss?",
+    "answer": "White fish like sea bass or tilapia are low in fat and calories, ideal for high-protein, low-calorie meals. High-fat fish like salmon or mackerel contain heart-healthy omega-3s, despite being higher in calories than white fish. Both have distinct benefits and can be used interchangeably based on your goals.",
+    "text": "Question: How do different types of fish compare for weight loss? Answer: White fish like sea bass or tilapia are low in fat and calories, ideal for high-protein, low-calorie meals. High-fat fish like salmon or mackerel contain heart-healthy omega-3s, despite being higher in calories than white fish. Both have distinct benefits and can be used interchangeably based on your goals.",
+    "part_idx": 0,
+    "line_no": 166
+  },
+  {
+    "chunk_id": 38,
+    "qa_id": 23,
+    "category": "Carbohydrates and Starch Choices",
+    "question": "Do carbohydrates really make you fat?",
+    "answer": "Carbohydrates themselves do not directly cause weight gain. Consuming more overall calories than needed is what causes weight gain. The problem usually comes from eating large amounts of refined carbs that digest quickly, causing rapid blood sugar spikes and crashes, leading to quick hunger. Choosing high-fiber complex carbs helps control hunger and portion sizes better.",
+    "text": "Question: Do carbohydrates really make you fat? Answer: Carbohydrates themselves do not directly cause weight gain. Consuming more overall calories than needed is what causes weight gain. The problem usually comes from eating large amounts of refined carbs that digest quickly, causing rapid blood sugar spikes and crashes, leading to quick hunger. Choosing high-fiber complex carbs helps control hun",
+    "part_idx": 0,
+    "line_no": 173
+  },
+  {
+    "chunk_id": 39,
+    "qa_id": 23,
+    "category": "Carbohydrates and Starch Choices",
+    "question": "Do carbohydrates really make you fat?",
+    "answer": "Carbohydrates themselves do not directly cause weight gain. Consuming more overall calories than needed is what causes weight gain. The problem usually comes from eating large amounts of refined carbs that digest quickly, causing rapid blood sugar spikes and crashes, leading to quick hunger. Choosing high-fiber complex carbs helps control hunger and portion sizes better.",
+    "text": "hoosing high-fiber complex carbs helps control hunger and portion sizes better.",
+    "part_idx": 1,
+    "line_no": 173
+  },
+  {
+    "chunk_id": 40,
+    "qa_id": 24,
+    "category": "Carbohydrates and Starch Choices",
+    "question": "What is the difference between brown rice and white rice for weight loss?",
+    "answer": "Calories per serving are similar, but brown rice has more fiber, B vitamins, and minerals because the bran hasn't been completely polished off. The higher fiber content keeps you full longer and raises blood sugar slower than white rice. Therefore, brown or unpolished rice is usually recommended for weight control.",
+    "text": "Question: What is the difference between brown rice and white rice for weight loss? Answer: Calories per serving are similar, but brown rice has more fiber, B vitamins, and minerals because the bran hasn't been completely polished off. The higher fiber content keeps you full longer and raises blood sugar slower than white rice. Therefore, brown or unpolished rice is usually recommended for weight ",
+    "part_idx": 0,
+    "line_no": 180
+  },
+  {
+    "chunk_id": 41,
+    "qa_id": 24,
+    "category": "Carbohydrates and Starch Choices",
+    "question": "What is the difference between brown rice and white rice for weight loss?",
+    "answer": "Calories per serving are similar, but brown rice has more fiber, B vitamins, and minerals because the bran hasn't been completely polished off. The higher fiber content keeps you full longer and raises blood sugar slower than white rice. Therefore, brown or unpolished rice is usually recommended for weight control.",
+    "text": "unpolished rice is usually recommended for weight control.",
+    "part_idx": 1,
+    "line_no": 180
+  },
+  {
+    "chunk_id": 42,
+    "qa_id": 25,
+    "category": "Carbohydrates and Starch Choices",
+    "question": "Will cutting out all rice and carbs lead to faster weight loss?",
+    "answer": "Initially, weight may drop quickly because the body loses water bound to glycogen, but it doesn't mean you're burning fat faster. Completely cutting out carbs is usually hard to sustain long-term and may lead to fiber and nutrient deficiencies. A more sustainable approach is reducing portions and choosing the right types of carbs rather than eliminating them completely.",
+    "text": "Question: Will cutting out all rice and carbs lead to faster weight loss? Answer: Initially, weight may drop quickly because the body loses water bound to glycogen, but it doesn't mean you're burning fat faster. Completely cutting out carbs is usually hard to sustain long-term and may lead to fiber and nutrient deficiencies. A more sustainable approach is reducing portions and choosing the right t",
+    "part_idx": 0,
+    "line_no": 187
+  },
+  {
+    "chunk_id": 43,
+    "qa_id": 25,
+    "category": "Carbohydrates and Starch Choices",
+    "question": "Will cutting out all rice and carbs lead to faster weight loss?",
+    "answer": "Initially, weight may drop quickly because the body loses water bound to glycogen, but it doesn't mean you're burning fat faster. Completely cutting out carbs is usually hard to sustain long-term and may lead to fiber and nutrient deficiencies. A more sustainable approach is reducing portions and choosing the right types of carbs rather than eliminating them completely.",
+    "text": "oach is reducing portions and choosing the right types of carbs rather than eliminating them completely.",
+    "part_idx": 1,
+    "line_no": 187
+  },
+  {
+    "chunk_id": 44,
+    "qa_id": 26,
+    "category": "Carbohydrates and Starch Choices",
+    "question": "At what time of day should I eat carbohydrates?",
+    "answer": "There is no strong evidence that the timing of carbohydrate intake affects weight loss more than the total daily amount. The belief that eating carbs at night is bad has no clear backing. What matters more is total daily volume and choosing high-fiber options. Those who exercise in the evening may benefit from carbs at that time to restore energy.",
+    "text": "Question: At what time of day should I eat carbohydrates? Answer: There is no strong evidence that the timing of carbohydrate intake affects weight loss more than the total daily amount. The belief that eating carbs at night is bad has no clear backing. What matters more is total daily volume and choosing high-fiber options. Those who exercise in the evening may benefit from carbs at that time to ",
+    "part_idx": 0,
+    "line_no": 194
+  },
+  {
+    "chunk_id": 45,
+    "qa_id": 26,
+    "category": "Carbohydrates and Starch Choices",
+    "question": "At what time of day should I eat carbohydrates?",
+    "answer": "There is no strong evidence that the timing of carbohydrate intake affects weight loss more than the total daily amount. The belief that eating carbs at night is bad has no clear backing. What matters more is total daily volume and choosing high-fiber options. Those who exercise in the evening may benefit from carbs at that time to restore energy.",
+    "text": "he evening may benefit from carbs at that time to restore energy.",
+    "part_idx": 1,
+    "line_no": 194
+  },
+  {
+    "chunk_id": 46,
+    "qa_id": 27,
+    "category": "Carbohydrates and Starch Choices",
+    "question": "What are whole grains and why are they good?",
+    "answer": "Whole grains refer to grains that still contain the bran and germ, unpolished, such as oats, brown rice, barley, and genuine whole wheat bread. They have more fiber, B vitamins, and minerals than refined grains, keeping you full longer, controlling blood sugar better, and are associated with a lower risk of heart disease and diabetes in many long-term studies.",
+    "text": "Question: What are whole grains and why are they good? Answer: Whole grains refer to grains that still contain the bran and germ, unpolished, such as oats, brown rice, barley, and genuine whole wheat bread. They have more fiber, B vitamins, and minerals than refined grains, keeping you full longer, controlling blood sugar better, and are associated with a lower risk of heart disease and diabetes i",
+    "part_idx": 0,
+    "line_no": 201
+  },
+  {
+    "chunk_id": 47,
+    "qa_id": 27,
+    "category": "Carbohydrates and Starch Choices",
+    "question": "What are whole grains and why are they good?",
+    "answer": "Whole grains refer to grains that still contain the bran and germ, unpolished, such as oats, brown rice, barley, and genuine whole wheat bread. They have more fiber, B vitamins, and minerals than refined grains, keeping you full longer, controlling blood sugar better, and are associated with a lower risk of heart disease and diabetes in many long-term studies.",
+    "text": " with a lower risk of heart disease and diabetes in many long-term studies.",
+    "part_idx": 1,
+    "line_no": 201
+  },
+  {
+    "chunk_id": 48,
+    "qa_id": 28,
+    "category": "Carbohydrates and Starch Choices",
+    "question": "Potatoes vs. Sweet Potatoes, which is better for weight loss?",
+    "answer": "Both have good nutritional value when not fried. Sweet potatoes have slightly more fiber and beta-carotene and a lower glycemic index in some varieties. Potatoes are high in potassium and very satiating. What affects calories the most is the cooking method; steaming or baking is much better than frying or adding butter and cream.",
+    "text": "Question: Potatoes vs. Sweet Potatoes, which is better for weight loss? Answer: Both have good nutritional value when not fried. Sweet potatoes have slightly more fiber and beta-carotene and a lower glycemic index in some varieties. Potatoes are high in potassium and very satiating. What affects calories the most is the cooking method; steaming or baking is much better than frying or adding butter",
+    "part_idx": 0,
+    "line_no": 208
+  },
+  {
+    "chunk_id": 49,
+    "qa_id": 28,
+    "category": "Carbohydrates and Starch Choices",
+    "question": "Potatoes vs. Sweet Potatoes, which is better for weight loss?",
+    "answer": "Both have good nutritional value when not fried. Sweet potatoes have slightly more fiber and beta-carotene and a lower glycemic index in some varieties. Potatoes are high in potassium and very satiating. What affects calories the most is the cooking method; steaming or baking is much better than frying or adding butter and cream.",
+    "text": "baking is much better than frying or adding butter and cream.",
+    "part_idx": 1,
+    "line_no": 208
+  },
+  {
+    "chunk_id": 50,
+    "qa_id": 29,
+    "category": "Carbohydrates and Starch Choices",
+    "question": "Noodles and pasta: which is the better choice for weight loss?",
+    "answer": "Noodles made from whole grains or legumes, like whole wheat pasta or lentil noodles, have higher fiber and protein than refined white flour noodles, keeping you full longer. Instant noodles are often high in sodium and fat from frying, so frequency should be limited, and they should be prepared with added vegetables and protein for balance.",
+    "text": "Question: Noodles and pasta: which is the better choice for weight loss? Answer: Noodles made from whole grains or legumes, like whole wheat pasta or lentil noodles, have higher fiber and protein than refined white flour noodles, keeping you full longer. Instant noodles are often high in sodium and fat from frying, so frequency should be limited, and they should be prepared with added vegetables a",
+    "part_idx": 0,
+    "line_no": 215
+  },
+  {
+    "chunk_id": 51,
+    "qa_id": 29,
+    "category": "Carbohydrates and Starch Choices",
+    "question": "Noodles and pasta: which is the better choice for weight loss?",
+    "answer": "Noodles made from whole grains or legumes, like whole wheat pasta or lentil noodles, have higher fiber and protein than refined white flour noodles, keeping you full longer. Instant noodles are often high in sodium and fat from frying, so frequency should be limited, and they should be prepared with added vegetables and protein for balance.",
+    "text": "nd they should be prepared with added vegetables and protein for balance.",
+    "part_idx": 1,
+    "line_no": 215
+  },
+  {
+    "chunk_id": 52,
+    "qa_id": 30,
+    "category": "Carbohydrates and Starch Choices",
+    "question": "What is the Glycemic Index (GI) and how is it useful for food choices?",
+    "answer": "The Glycemic Index indicates how quickly a food raises blood sugar compared to pure glucose. Low-GI foods like beans, oats, and leafy greens digest slowly and keep you full longer. High-GI foods like white bread or soda cause blood sugar to spike and crash rapidly, making you hungry quickly. However, you should also consider the actual portion size (glycemic load), not just the GI alone.",
+    "text": "Question: What is the Glycemic Index (GI) and how is it useful for food choices? Answer: The Glycemic Index indicates how quickly a food raises blood sugar compared to pure glucose. Low-GI foods like beans, oats, and leafy greens digest slowly and keep you full longer. High-GI foods like white bread or soda cause blood sugar to spike and crash rapidly, making you hungry quickly. However, you shoul",
+    "part_idx": 0,
+    "line_no": 222
+  },
+  {
+    "chunk_id": 53,
+    "qa_id": 30,
+    "category": "Carbohydrates and Starch Choices",
+    "question": "What is the Glycemic Index (GI) and how is it useful for food choices?",
+    "answer": "The Glycemic Index indicates how quickly a food raises blood sugar compared to pure glucose. Low-GI foods like beans, oats, and leafy greens digest slowly and keep you full longer. High-GI foods like white bread or soda cause blood sugar to spike and crash rapidly, making you hungry quickly. However, you should also consider the actual portion size (glycemic load), not just the GI alone.",
+    "text": "dly, making you hungry quickly. However, you should also consider the actual portion size (glycemic load), not just the GI alone.",
+    "part_idx": 1,
+    "line_no": 222
+  },
+  {
+    "chunk_id": 54,
+    "qa_id": 31,
+    "category": "Fats in the Diet",
+    "question": "Should all fat be cut out of the diet when losing weight?",
+    "answer": "No. Fats are essential nutrients that help absorb vitamins A, D, E, K, and are necessary for hormone production. Cutting out all fat can make it harder to feel full because fat slows digestion. You should choose the right types of fat and control the portions, not avoid them entirely.",
+    "text": "Question: Should all fat be cut out of the diet when losing weight? Answer: No. Fats are essential nutrients that help absorb vitamins A, D, E, K, and are necessary for hormone production. Cutting out all fat can make it harder to feel full because fat slows digestion. You should choose the right types of fat and control the portions, not avoid them entirely.",
+    "part_idx": 0,
+    "line_no": 229
+  },
+  {
+    "chunk_id": 55,
+    "qa_id": 32,
+    "category": "Fats in the Diet",
+    "question": "What is the difference between unsaturated and saturated fats?",
+    "answer": "Unsaturated fats are found in olive oil, avocados, nuts, and fish. They are associated with better heart health when used in place of saturated fats. Saturated fats are found in fatty meats, butter, and palm oil and should be limited according to nutritional guidelines. Both provide the same calories per gram; the difference lies in their long-term effects on heart health.",
+    "text": "Question: What is the difference between unsaturated and saturated fats? Answer: Unsaturated fats are found in olive oil, avocados, nuts, and fish. They are associated with better heart health when used in place of saturated fats. Saturated fats are found in fatty meats, butter, and palm oil and should be limited according to nutritional guidelines. Both provide the same calories per gram; the dif",
+    "part_idx": 0,
+    "line_no": 236
+  },
+  {
+    "chunk_id": 56,
+    "qa_id": 32,
+    "category": "Fats in the Diet",
+    "question": "What is the difference between unsaturated and saturated fats?",
+    "answer": "Unsaturated fats are found in olive oil, avocados, nuts, and fish. They are associated with better heart health when used in place of saturated fats. Saturated fats are found in fatty meats, butter, and palm oil and should be limited according to nutritional guidelines. Both provide the same calories per gram; the difference lies in their long-term effects on heart health.",
+    "text": ". Both provide the same calories per gram; the difference lies in their long-term effects on heart health.",
+    "part_idx": 1,
+    "line_no": 236
+  },
+  {
+    "chunk_id": 57,
+    "qa_id": 33,
+    "category": "Fats in the Diet",
+    "question": "What are trans fats and why should they be avoided?",
+    "answer": "Trans fats are mostly created by partially hydrogenating vegetable oils to increase shelf life, found in some baked goods and fried snacks. They have a clear link to increased heart disease risk because they raise bad cholesterol (LDL) and lower good cholesterol (HDL). Many countries have banned or limited their use in the food industry. Look out for \"partially hydrogenated oils\" on labels and avoid them.",
+    "text": "Question: What are trans fats and why should they be avoided? Answer: Trans fats are mostly created by partially hydrogenating vegetable oils to increase shelf life, found in some baked goods and fried snacks. They have a clear link to increased heart disease risk because they raise bad cholesterol (LDL) and lower good cholesterol (HDL). Many countries have banned or limited their use in the food ",
+    "part_idx": 0,
+    "line_no": 243
+  },
+  {
+    "chunk_id": 58,
+    "qa_id": 33,
+    "category": "Fats in the Diet",
+    "question": "What are trans fats and why should they be avoided?",
+    "answer": "Trans fats are mostly created by partially hydrogenating vegetable oils to increase shelf life, found in some baked goods and fried snacks. They have a clear link to increased heart disease risk because they raise bad cholesterol (LDL) and lower good cholesterol (HDL). Many countries have banned or limited their use in the food industry. Look out for \"partially hydrogenated oils\" on labels and avoid them.",
+    "text": "ries have banned or limited their use in the food industry. Look out for \"partially hydrogenated oils\" on labels and avoid them.",
+    "part_idx": 1,
+    "line_no": 243
+  },
+  {
+    "chunk_id": 59,
+    "qa_id": 34,
+    "category": "Fats in the Diet",
+    "question": "Avocados are high in calories; can I eat them while losing weight?",
+    "answer": "Yes. Avocados have higher calories than regular vegetables because they are high in unsaturated fat. But this fat helps keep you full and aids the absorption of certain nutrients from other veggies in the same meal. The issue is portion size. Eating half to one avocado as part of a balanced meal is much better than eating whole ones every meal without accounting for other calories.",
+    "text": "Question: Avocados are high in calories; can I eat them while losing weight? Answer: Yes. Avocados have higher calories than regular vegetables because they are high in unsaturated fat. But this fat helps keep you full and aids the absorption of certain nutrients from other veggies in the same meal. The issue is portion size. Eating half to one avocado as part of a balanced meal is much better tha",
+    "part_idx": 0,
+    "line_no": 250
+  },
+  {
+    "chunk_id": 60,
+    "qa_id": 34,
+    "category": "Fats in the Diet",
+    "question": "Avocados are high in calories; can I eat them while losing weight?",
+    "answer": "Yes. Avocados have higher calories than regular vegetables because they are high in unsaturated fat. But this fat helps keep you full and aids the absorption of certain nutrients from other veggies in the same meal. The issue is portion size. Eating half to one avocado as part of a balanced meal is much better than eating whole ones every meal without accounting for other calories.",
+    "text": "cado as part of a balanced meal is much better than eating whole ones every meal without accounting for other calories.",
+    "part_idx": 1,
+    "line_no": 250
+  },
+  {
+    "chunk_id": 61,
+    "qa_id": 35,
+    "category": "Fats in the Diet",
+    "question": "Does coconut oil really help with weight loss?",
+    "answer": "Current scientific evidence does not support that coconut oil aids weight loss significantly as advertised. Coconut oil is higher in saturated fat than many vegetable oils. Occasional small amounts are fine, but you shouldn't expect it to be a primary aid in fat reduction.",
+    "text": "Question: Does coconut oil really help with weight loss? Answer: Current scientific evidence does not support that coconut oil aids weight loss significantly as advertised. Coconut oil is higher in saturated fat than many vegetable oils. Occasional small amounts are fine, but you shouldn't expect it to be a primary aid in fat reduction.",
+    "part_idx": 0,
+    "line_no": 257
+  },
+  {
+    "chunk_id": 62,
+    "qa_id": 36,
+    "category": "Vegetables, Fruits, and Fiber",
+    "question": "How does fiber help with weight loss?",
+    "answer": "Fiber increases food volume without adding many calories, making you feel full faster and longer. It slows digestion and sugar absorption, keeping blood sugar levels more stable. Soluble fiber also helps lower cholesterol and feeds good gut bacteria. Vegetables, fruits, whole grains, and beans are excellent sources of fiber.",
+    "text": "Question: How does fiber help with weight loss? Answer: Fiber increases food volume without adding many calories, making you feel full faster and longer. It slows digestion and sugar absorption, keeping blood sugar levels more stable. Soluble fiber also helps lower cholesterol and feeds good gut bacteria. Vegetables, fruits, whole grains, and beans are excellent sources of fiber.",
+    "part_idx": 0,
+    "line_no": 264
+  },
+  {
+    "chunk_id": 63,
+    "qa_id": 37,
+    "category": "Vegetables, Fruits, and Fiber",
+    "question": "How many servings of vegetables and fruits should I eat per day for weight loss?",
+    "answer": "The general recommendation in many health guidelines is about 5 or more servings a day, focusing on colorful vegetables to get complete nutrients. Low-calorie, high-volume veggies like leafy greens, broccoli, and cucumbers help you feel full without adding many calories. While fruits are beneficial, they contain natural sugars, so they should be eaten in appropriate, not unlimited, amounts.",
+    "text": "Question: How many servings of vegetables and fruits should I eat per day for weight loss? Answer: The general recommendation in many health guidelines is about 5 or more servings a day, focusing on colorful vegetables to get complete nutrients. Low-calorie, high-volume veggies like leafy greens, broccoli, and cucumbers help you feel full without adding many calories. While fruits are beneficial, ",
+    "part_idx": 0,
+    "line_no": 271
+  },
+  {
+    "chunk_id": 64,
+    "qa_id": 37,
+    "category": "Vegetables, Fruits, and Fiber",
+    "question": "How many servings of vegetables and fruits should I eat per day for weight loss?",
+    "answer": "The general recommendation in many health guidelines is about 5 or more servings a day, focusing on colorful vegetables to get complete nutrients. Low-calorie, high-volume veggies like leafy greens, broccoli, and cucumbers help you feel full without adding many calories. While fruits are beneficial, they contain natural sugars, so they should be eaten in appropriate, not unlimited, amounts.",
+    "text": "dding many calories. While fruits are beneficial, they contain natural sugars, so they should be eaten in appropriate, not unlimited, amounts.",
+    "part_idx": 1,
+    "line_no": 271
+  },
+  {
+    "chunk_id": 65,
+    "qa_id": 38,
+    "category": "Vegetables, Fruits, and Fiber",
+    "question": "Is eating lots of fruit instead of desserts effective for weight loss?",
+    "answer": "It is much better than processed sweets because fruits have fiber, vitamins, and water that aid satiety, whereas sweets provide high calories but low nutrients. However, fruit still has calories from natural sugars. Eating excessive amounts without counting them in your daily calories can still lead to exceeding your energy needs.",
+    "text": "Question: Is eating lots of fruit instead of desserts effective for weight loss? Answer: It is much better than processed sweets because fruits have fiber, vitamins, and water that aid satiety, whereas sweets provide high calories but low nutrients. However, fruit still has calories from natural sugars. Eating excessive amounts without counting them in your daily calories can still lead to exceedi",
+    "part_idx": 0,
+    "line_no": 278
+  },
+  {
+    "chunk_id": 66,
+    "qa_id": 38,
+    "category": "Vegetables, Fruits, and Fiber",
+    "question": "Is eating lots of fruit instead of desserts effective for weight loss?",
+    "answer": "It is much better than processed sweets because fruits have fiber, vitamins, and water that aid satiety, whereas sweets provide high calories but low nutrients. However, fruit still has calories from natural sugars. Eating excessive amounts without counting them in your daily calories can still lead to exceeding your energy needs.",
+    "text": "m in your daily calories can still lead to exceeding your energy needs.",
+    "part_idx": 1,
+    "line_no": 278
+  },
+  {
+    "chunk_id": 67,
+    "qa_id": 39,
+    "category": "Vegetables, Fruits, and Fiber",
+    "question": "What is the difference between fresh squeezed fruit juice and whole fruits for weight loss?",
+    "answer": "Whole fruits are better because they retain all their fiber, which slows sugar absorption and provides satiety from chewing. Fresh juice loses most of its fiber and often requires multiple fruits per glass, resulting in a high amount of sugar in a short time without feeling full. It is better to prioritize whole fruits over drinking them as juice.",
+    "text": "Question: What is the difference between fresh squeezed fruit juice and whole fruits for weight loss? Answer: Whole fruits are better because they retain all their fiber, which slows sugar absorption and provides satiety from chewing. Fresh juice loses most of its fiber and often requires multiple fruits per glass, resulting in a high amount of sugar in a short time without feeling full. It is bet",
+    "part_idx": 0,
+    "line_no": 285
+  },
+  {
+    "chunk_id": 68,
+    "qa_id": 39,
+    "category": "Vegetables, Fruits, and Fiber",
+    "question": "What is the difference between fresh squeezed fruit juice and whole fruits for weight loss?",
+    "answer": "Whole fruits are better because they retain all their fiber, which slows sugar absorption and provides satiety from chewing. Fresh juice loses most of its fiber and often requires multiple fruits per glass, resulting in a high amount of sugar in a short time without feeling full. It is better to prioritize whole fruits over drinking them as juice.",
+    "text": "ar in a short time without feeling full. It is better to prioritize whole fruits over drinking them as juice.",
+    "part_idx": 1,
+    "line_no": 285
+  },
+  {
+    "chunk_id": 69,
+    "qa_id": 40,
+    "category": "Vegetables, Fruits, and Fiber",
+    "question": "Are starchy vegetables like corn and pumpkin considered vegetables or carbs?",
+    "answer": "Nutritionally, they are classified as starchy vegetables and provide energy closer to grains than typical leafy greens. Therefore, they should be counted as part of your carbohydrate portion in a meal rather than eaten in addition to rice or other carbs without reducing other portions.",
+    "text": "Question: Are starchy vegetables like corn and pumpkin considered vegetables or carbs? Answer: Nutritionally, they are classified as starchy vegetables and provide energy closer to grains than typical leafy greens. Therefore, they should be counted as part of your carbohydrate portion in a meal rather than eaten in addition to rice or other carbs without reducing other portions.",
+    "part_idx": 0,
+    "line_no": 292
+  },
+  {
+    "chunk_id": 70,
+    "qa_id": 41,
+    "category": "Vegetables, Fruits, and Fiber",
+    "question": "Are there negative effects of eating too much fiber?",
+    "answer": "Increasing fiber too quickly without drinking enough water can cause bloating, gas, or constipation. You should increase fiber gradually while drinking more water to give your digestive system time to adjust.",
+    "text": "Question: Are there negative effects of eating too much fiber? Answer: Increasing fiber too quickly without drinking enough water can cause bloating, gas, or constipation. You should increase fiber gradually while drinking more water to give your digestive system time to adjust.",
+    "part_idx": 0,
+    "line_no": 299
+  },
+  {
+    "chunk_id": 71,
+    "qa_id": 42,
+    "category": "Snacks and Beverages",
+    "question": "What are some healthy snacks between meals for weight loss?",
+    "answer": "Good choices are snacks that contain protein or fiber for prolonged satiety, such as plain yogurt with fresh fruit, a boiled egg, a limited handful of unsalted roasted nuts, carrots or cucumbers with hummus, or one serving of fresh fruit. You should avoid highly processed snacks with hidden sugars and trans fats.",
+    "text": "Question: What are some healthy snacks between meals for weight loss? Answer: Good choices are snacks that contain protein or fiber for prolonged satiety, such as plain yogurt with fresh fruit, a boiled egg, a limited handful of unsalted roasted nuts, carrots or cucumbers with hummus, or one serving of fresh fruit. You should avoid highly processed snacks with hidden sugars and trans fats.",
+    "part_idx": 0,
+    "line_no": 306
+  },
+  {
+    "chunk_id": 72,
+    "qa_id": 43,
+    "category": "Snacks and Beverages",
+    "question": "Can I drink unlimited diet soda (sugar-free) while losing weight?",
+    "answer": "Even though it has no calories from sugar, it should still be consumed in moderation. Some studies suggest that the sweetness from artificial sweeteners may trigger sugar cravings in some people, and long-term effects aren't fully conclusive in all aspects. Plain water, unsweetened tea, or diluted unsweetened fruit juice are safer long-term choices.",
+    "text": "Question: Can I drink unlimited diet soda (sugar-free) while losing weight? Answer: Even though it has no calories from sugar, it should still be consumed in moderation. Some studies suggest that the sweetness from artificial sweeteners may trigger sugar cravings in some people, and long-term effects aren't fully conclusive in all aspects. Plain water, unsweetened tea, or diluted unsweetened fruit",
+    "part_idx": 0,
+    "line_no": 313
+  },
+  {
+    "chunk_id": 73,
+    "qa_id": 43,
+    "category": "Snacks and Beverages",
+    "question": "Can I drink unlimited diet soda (sugar-free) while losing weight?",
+    "answer": "Even though it has no calories from sugar, it should still be consumed in moderation. Some studies suggest that the sweetness from artificial sweeteners may trigger sugar cravings in some people, and long-term effects aren't fully conclusive in all aspects. Plain water, unsweetened tea, or diluted unsweetened fruit juice are safer long-term choices.",
+    "text": "ter, unsweetened tea, or diluted unsweetened fruit juice are safer long-term choices.",
+    "part_idx": 1,
+    "line_no": 313
+  },
+  {
+    "chunk_id": 74,
+    "qa_id": 44,
+    "category": "Snacks and Beverages",
+    "question": "Does coffee really help with weight loss?",
+    "answer": "Caffeine has a mild metabolic boosting effect and may briefly suppress appetite in some people, but the effect is not large enough to be a primary weight loss aid. A more common issue is what's added to the coffee, like sugar, non-dairy creamer, or flavored syrups, which add significant calories unknowingly. Black coffee or coffee with a small amount of low-fat milk are lower-calorie options.",
+    "text": "Question: Does coffee really help with weight loss? Answer: Caffeine has a mild metabolic boosting effect and may briefly suppress appetite in some people, but the effect is not large enough to be a primary weight loss aid. A more common issue is what's added to the coffee, like sugar, non-dairy creamer, or flavored syrups, which add significant calories unknowingly. Black coffee or coffee with a ",
+    "part_idx": 0,
+    "line_no": 320
+  },
+  {
+    "chunk_id": 75,
+    "qa_id": 44,
+    "category": "Snacks and Beverages",
+    "question": "Does coffee really help with weight loss?",
+    "answer": "Caffeine has a mild metabolic boosting effect and may briefly suppress appetite in some people, but the effect is not large enough to be a primary weight loss aid. A more common issue is what's added to the coffee, like sugar, non-dairy creamer, or flavored syrups, which add significant calories unknowingly. Black coffee or coffee with a small amount of low-fat milk are lower-calorie options.",
+    "text": "lories unknowingly. Black coffee or coffee with a small amount of low-fat milk are lower-calorie options.",
+    "part_idx": 1,
+    "line_no": 320
+  },
+  {
+    "chunk_id": 76,
+    "qa_id": 45,
+    "category": "Snacks and Beverages",
+    "question": "How does alcohol affect weight loss?",
+    "answer": "Alcohol provides high energy at about 7 calories per gram with almost no nutrients, and is often consumed with high-calorie snacks. It also lowers inhibitions in food choices and disrupts sleep quality. The body prioritizes metabolizing alcohol over fat or carbs, temporarily slowing down fat burning while alcohol is in the bloodstream.",
+    "text": "Question: How does alcohol affect weight loss? Answer: Alcohol provides high energy at about 7 calories per gram with almost no nutrients, and is often consumed with high-calorie snacks. It also lowers inhibitions in food choices and disrupts sleep quality. The body prioritizes metabolizing alcohol over fat or carbs, temporarily slowing down fat burning while alcohol is in the bloodstream.",
+    "part_idx": 0,
+    "line_no": 327
+  },
+  {
+    "chunk_id": 77,
+    "qa_id": 46,
+    "category": "Snacks and Beverages",
+    "question": "Does green tea really burn fat as advertised?",
+    "answer": "Green tea contains catechins and caffeine that may slightly boost metabolism in some studies, but the measurable effect is very small compared to the overall impact of diet and exercise. You shouldn't expect drinking green tea to lead to weight loss without adjusting your eating habits and physical activity.",
+    "text": "Question: Does green tea really burn fat as advertised? Answer: Green tea contains catechins and caffeine that may slightly boost metabolism in some studies, but the measurable effect is very small compared to the overall impact of diet and exercise. You shouldn't expect drinking green tea to lead to weight loss without adjusting your eating habits and physical activity.",
+    "part_idx": 0,
+    "line_no": 334
+  },
+  {
+    "chunk_id": 78,
+    "qa_id": 47,
+    "category": "Meal Planning and Eating Habits",
+    "question": "Does eating slowly really help with weight loss?",
+    "answer": "Yes, it helps because the satiety signal from the stomach to the brain takes about 15-20 minutes. Eating too quickly often results in overeating past the point of actual fullness before realizing it. Chewing thoroughly, putting down utensils between bites, and eating mindfully without looking at a phone or TV helps you accurately perceive fullness.",
+    "text": "Question: Does eating slowly really help with weight loss? Answer: Yes, it helps because the satiety signal from the stomach to the brain takes about 15-20 minutes. Eating too quickly often results in overeating past the point of actual fullness before realizing it. Chewing thoroughly, putting down utensils between bites, and eating mindfully without looking at a phone or TV helps you accurately p",
+    "part_idx": 0,
+    "line_no": 341
+  },
+  {
+    "chunk_id": 79,
+    "qa_id": 47,
+    "category": "Meal Planning and Eating Habits",
+    "question": "Does eating slowly really help with weight loss?",
+    "answer": "Yes, it helps because the satiety signal from the stomach to the brain takes about 15-20 minutes. Eating too quickly often results in overeating past the point of actual fullness before realizing it. Chewing thoroughly, putting down utensils between bites, and eating mindfully without looking at a phone or TV helps you accurately perceive fullness.",
+    "text": "ut looking at a phone or TV helps you accurately perceive fullness.",
+    "part_idx": 1,
+    "line_no": 341
+  },
+  {
+    "chunk_id": 80,
+    "qa_id": 48,
+    "category": "Meal Planning and Eating Habits",
+    "question": "How does meal prep help with weight loss?",
+    "answer": "It reduces the chance of impulsive food decisions made out of acute hunger, which usually lead to choosing high-calorie, convenient foods. Prepping in advance allows you to control ingredients and portions from the start, saves time on busy days, and reduces the likelihood of eating out, which often has higher calories and sodium than home-cooked meals.",
+    "text": "Question: How does meal prep help with weight loss? Answer: It reduces the chance of impulsive food decisions made out of acute hunger, which usually lead to choosing high-calorie, convenient foods. Prepping in advance allows you to control ingredients and portions from the start, saves time on busy days, and reduces the likelihood of eating out, which often has higher calories and sodium than hom",
+    "part_idx": 0,
+    "line_no": 348
+  },
+  {
+    "chunk_id": 81,
+    "qa_id": 48,
+    "category": "Meal Planning and Eating Habits",
+    "question": "How does meal prep help with weight loss?",
+    "answer": "It reduces the chance of impulsive food decisions made out of acute hunger, which usually lead to choosing high-calorie, convenient foods. Prepping in advance allows you to control ingredients and portions from the start, saves time on busy days, and reduces the likelihood of eating out, which often has higher calories and sodium than home-cooked meals.",
+    "text": "hich often has higher calories and sodium than home-cooked meals.",
+    "part_idx": 1,
+    "line_no": 348
+  },
+  {
+    "chunk_id": 82,
+    "qa_id": 49,
+    "category": "Meal Planning and Eating Habits",
+    "question": "How should I portion my plate for weight loss?",
+    "answer": "A widely used guideline is to divide the plate into half for colorful vegetables, one quarter for lean protein, and one quarter for complex carbohydrates like brown rice or whole grains, along with a small amount of healthy fats for cooking or dressing. This method helps control energy without having to weigh or measure every meal.",
+    "text": "Question: How should I portion my plate for weight loss? Answer: A widely used guideline is to divide the plate into half for colorful vegetables, one quarter for lean protein, and one quarter for complex carbohydrates like brown rice or whole grains, along with a small amount of healthy fats for cooking or dressing. This method helps control energy without having to weigh or measure every meal.",
+    "part_idx": 0,
+    "line_no": 355
+  },
+  {
+    "chunk_id": 83,
+    "qa_id": 50,
+    "category": "Meal Planning and Eating Habits",
+    "question": "Can I still lose weight if I eat out often? How should I choose?",
+    "answer": "Yes, if you choose mindfully. For example, ask for less rice or high-sugar dipping sauces, choose boiled, steamed, or grilled dishes over fried or oily stir-fries, ask for dressings or sauces on the side to control portions yourself, and start with vegetables or a salad before the main course to help control overall intake.",
+    "text": "Question: Can I still lose weight if I eat out often? How should I choose? Answer: Yes, if you choose mindfully. For example, ask for less rice or high-sugar dipping sauces, choose boiled, steamed, or grilled dishes over fried or oily stir-fries, ask for dressings or sauces on the side to control portions yourself, and start with vegetables or a salad before the main course to help control overall",
+    "part_idx": 0,
+    "line_no": 362
+  },
+  {
+    "chunk_id": 84,
+    "qa_id": 50,
+    "category": "Meal Planning and Eating Habits",
+    "question": "Can I still lose weight if I eat out often? How should I choose?",
+    "answer": "Yes, if you choose mindfully. For example, ask for less rice or high-sugar dipping sauces, choose boiled, steamed, or grilled dishes over fried or oily stir-fries, ask for dressings or sauces on the side to control portions yourself, and start with vegetables or a salad before the main course to help control overall intake.",
+    "text": "lad before the main course to help control overall intake.",
+    "part_idx": 1,
+    "line_no": 362
+  },
+  {
+    "chunk_id": 85,
+    "qa_id": 51,
+    "category": "Meal Planning and Eating Habits",
+    "question": "What is emotional eating and how do I cope with it?",
+    "answer": "It refers to eating to manage emotions, such as stress, boredom, or loneliness, rather than physical hunger. People often reach for comfort foods that offer immediate relief, like sweets or fried items. To cope, observe and separate physical hunger from emotions, find alternative activities like taking a walk or talking to someone close, and consult a professional if it frequently affects daily life.",
+    "text": "Question: What is emotional eating and how do I cope with it? Answer: It refers to eating to manage emotions, such as stress, boredom, or loneliness, rather than physical hunger. People often reach for comfort foods that offer immediate relief, like sweets or fried items. To cope, observe and separate physical hunger from emotions, find alternative activities like taking a walk or talking to someo",
+    "part_idx": 0,
+    "line_no": 369
+  },
+  {
+    "chunk_id": 86,
+    "qa_id": 51,
+    "category": "Meal Planning and Eating Habits",
+    "question": "What is emotional eating and how do I cope with it?",
+    "answer": "It refers to eating to manage emotions, such as stress, boredom, or loneliness, rather than physical hunger. People often reach for comfort foods that offer immediate relief, like sweets or fried items. To cope, observe and separate physical hunger from emotions, find alternative activities like taking a walk or talking to someone close, and consult a professional if it frequently affects daily life.",
+    "text": " activities like taking a walk or talking to someone close, and consult a professional if it frequently affects daily life.",
+    "part_idx": 1,
+    "line_no": 369
+  },
+  {
+    "chunk_id": 87,
+    "qa_id": 52,
+    "category": "Meal Planning and Eating Habits",
+    "question": "What should I look at first when reading a nutrition label?",
+    "answer": "Start with the serving size because all the numbers on the label are based on that. Then look at total calories, sugar, sodium, and saturated fat. Compare the daily recommended percentages (% DV) and check the ingredient list, which is ordered from most to least. If sugar or oil is near the top, the product contains a lot of it.",
+    "text": "Question: What should I look at first when reading a nutrition label? Answer: Start with the serving size because all the numbers on the label are based on that. Then look at total calories, sugar, sodium, and saturated fat. Compare the daily recommended percentages (% DV) and check the ingredient list, which is ordered from most to least. If sugar or oil is near the top, the product contains a lo",
+    "part_idx": 0,
+    "line_no": 376
+  },
+  {
+    "chunk_id": 88,
+    "qa_id": 52,
+    "category": "Meal Planning and Eating Habits",
+    "question": "What should I look at first when reading a nutrition label?",
+    "answer": "Start with the serving size because all the numbers on the label are based on that. Then look at total calories, sugar, sodium, and saturated fat. Compare the daily recommended percentages (% DV) and check the ingredient list, which is ordered from most to least. If sugar or oil is near the top, the product contains a lot of it.",
+    "text": " or oil is near the top, the product contains a lot of it.",
+    "part_idx": 1,
+    "line_no": 376
+  },
+  {
+    "chunk_id": 89,
+    "qa_id": 53,
+    "category": "Meal Planning and Eating Habits",
+    "question": "Does keeping a food journal really help with weight loss?",
+    "answer": "Many studies support that consistent journaling is associated with higher weight loss success because it creates awareness of actual intake, which is often underestimated, and helps identify behavioral patterns that need adjusting. You don't need to count calories meticulously every meal; simply logging what you eat honestly is beneficial.",
+    "text": "Question: Does keeping a food journal really help with weight loss? Answer: Many studies support that consistent journaling is associated with higher weight loss success because it creates awareness of actual intake, which is often underestimated, and helps identify behavioral patterns that need adjusting. You don't need to count calories meticulously every meal; simply logging what you eat honest",
+    "part_idx": 0,
+    "line_no": 383
+  },
+  {
+    "chunk_id": 90,
+    "qa_id": 53,
+    "category": "Meal Planning and Eating Habits",
+    "question": "Does keeping a food journal really help with weight loss?",
+    "answer": "Many studies support that consistent journaling is associated with higher weight loss success because it creates awareness of actual intake, which is often underestimated, and helps identify behavioral patterns that need adjusting. You don't need to count calories meticulously every meal; simply logging what you eat honestly is beneficial.",
+    "text": "sly every meal; simply logging what you eat honestly is beneficial.",
+    "part_idx": 1,
+    "line_no": 383
+  },
+  {
+    "chunk_id": 91,
+    "qa_id": 54,
+    "category": "Meal Planning and Eating Habits",
+    "question": "Should I exercise along with dieting, or is doing just one enough?",
+    "answer": "Diet control has a bigger impact on weight loss than exercise alone because it directly controls calorie intake. However, exercise helps preserve muscle mass, improves cardiovascular health, enhances mood and sleep quality, all of which support long-term success. Doing both together yields better and more sustainable results than doing just one.",
+    "text": "Question: Should I exercise along with dieting, or is doing just one enough? Answer: Diet control has a bigger impact on weight loss than exercise alone because it directly controls calorie intake. However, exercise helps preserve muscle mass, improves cardiovascular health, enhances mood and sleep quality, all of which support long-term success. Doing both together yields better and more sustaina",
+    "part_idx": 0,
+    "line_no": 390
+  },
+  {
+    "chunk_id": 92,
+    "qa_id": 54,
+    "category": "Meal Planning and Eating Habits",
+    "question": "Should I exercise along with dieting, or is doing just one enough?",
+    "answer": "Diet control has a bigger impact on weight loss than exercise alone because it directly controls calorie intake. However, exercise helps preserve muscle mass, improves cardiovascular health, enhances mood and sleep quality, all of which support long-term success. Doing both together yields better and more sustainable results than doing just one.",
+    "text": "oing both together yields better and more sustainable results than doing just one.",
+    "part_idx": 1,
+    "line_no": 390
+  },
+  {
+    "chunk_id": 93,
+    "qa_id": 55,
+    "category": "Meal Planning and Eating Habits",
+    "question": "Does eating late at night make you fat?",
+    "answer": "The main factor remains the total daily calories rather than the time you eat. However, late-night eating often involves convenient, high-calorie foods like fried snacks or junk food, and going to bed very full can disrupt sleep quality. Aligning meals to your individual lifestyle schedule is more important than a strict time rule.",
+    "text": "Question: Does eating late at night make you fat? Answer: The main factor remains the total daily calories rather than the time you eat. However, late-night eating often involves convenient, high-calorie foods like fried snacks or junk food, and going to bed very full can disrupt sleep quality. Aligning meals to your individual lifestyle schedule is more important than a strict time rule.",
+    "part_idx": 0,
+    "line_no": 397
+  },
+  {
+    "chunk_id": 94,
+    "qa_id": 56,
+    "category": "Meal Planning and Eating Habits",
+    "question": "How much does cooking at home help with weight loss?",
+    "answer": "It helps significantly because you completely control the types and amounts of oil, sugar, and salt. This differs from eating out or processed foods, which are often heavily seasoned for taste without regard to calories. Many studies show that people who cook at home more frequently tend to eat more fruits and vegetables and have better overall weight management.",
+    "text": "Question: How much does cooking at home help with weight loss? Answer: It helps significantly because you completely control the types and amounts of oil, sugar, and salt. This differs from eating out or processed foods, which are often heavily seasoned for taste without regard to calories. Many studies show that people who cook at home more frequently tend to eat more fruits and vegetables and ha",
+    "part_idx": 0,
+    "line_no": 404
+  },
+  {
+    "chunk_id": 95,
+    "qa_id": 56,
+    "category": "Meal Planning and Eating Habits",
+    "question": "How much does cooking at home help with weight loss?",
+    "answer": "It helps significantly because you completely control the types and amounts of oil, sugar, and salt. This differs from eating out or processed foods, which are often heavily seasoned for taste without regard to calories. Many studies show that people who cook at home more frequently tend to eat more fruits and vegetables and have better overall weight management.",
+    "text": "ntly tend to eat more fruits and vegetables and have better overall weight management.",
+    "part_idx": 1,
+    "line_no": 404
+  },
+  {
+    "chunk_id": 96,
+    "qa_id": 57,
+    "category": "Common Weight Loss Misconceptions",
+    "question": "Is it true that eating \"clean\" means you can eat as much as you want without gaining weight?",
+    "answer": "Not true. The term \"clean eating\" has no strict scientific definition, and foods considered healthy, like nuts, avocados, or olive oil, still provide calories based on portion sizes. Consuming more energy than your body needs will cause weight gain, regardless of the type of food.",
+    "text": "Question: Is it true that eating \"clean\" means you can eat as much as you want without gaining weight? Answer: Not true. The term \"clean eating\" has no strict scientific definition, and foods considered healthy, like nuts, avocados, or olive oil, still provide calories based on portion sizes. Consuming more energy than your body needs will cause weight gain, regardless of the type of food.",
+    "part_idx": 0,
+    "line_no": 411
+  },
+  {
+    "chunk_id": 97,
+    "qa_id": 58,
+    "category": "Common Weight Loss Misconceptions",
+    "question": "Does skipping breakfast reduce total calories and lead to faster weight loss?",
+    "answer": "Not necessarily. Some people who skip breakfast end up much hungrier and overeat at the next meal, so total daily calories aren't actually reduced. Meanwhile, some people do well with intermittent fasting because it makes controlling overall food volume easier. It depends on individual suitability; there is no fixed formula for everyone.",
+    "text": "Question: Does skipping breakfast reduce total calories and lead to faster weight loss? Answer: Not necessarily. Some people who skip breakfast end up much hungrier and overeat at the next meal, so total daily calories aren't actually reduced. Meanwhile, some people do well with intermittent fasting because it makes controlling overall food volume easier. It depends on individual suitability; ther",
+    "part_idx": 0,
+    "line_no": 418
+  },
+  {
+    "chunk_id": 98,
+    "qa_id": 58,
+    "category": "Common Weight Loss Misconceptions",
+    "question": "Does skipping breakfast reduce total calories and lead to faster weight loss?",
+    "answer": "Not necessarily. Some people who skip breakfast end up much hungrier and overeat at the next meal, so total daily calories aren't actually reduced. Meanwhile, some people do well with intermittent fasting because it makes controlling overall food volume easier. It depends on individual suitability; there is no fixed formula for everyone.",
+    "text": "easier. It depends on individual suitability; there is no fixed formula for everyone.",
+    "part_idx": 1,
+    "line_no": 418
+  },
+  {
+    "chunk_id": 99,
+    "qa_id": 59,
+    "category": "Common Weight Loss Misconceptions",
+    "question": "Do fat burner supplements really work?",
+    "answer": "Most commercial products have very little scientific backing or produce negligible, clinically insignificant results. Some also pose risks of side effects like palpitations, high blood pressure, or contamination with banned substances, especially those bought online from unreliable sources. You should consult a doctor before using any weight loss supplements.",
+    "text": "Question: Do fat burner supplements really work? Answer: Most commercial products have very little scientific backing or produce negligible, clinically insignificant results. Some also pose risks of side effects like palpitations, high blood pressure, or contamination with banned substances, especially those bought online from unreliable sources. You should consult a doctor before using any weight",
+    "part_idx": 0,
+    "line_no": 425
+  },
+  {
+    "chunk_id": 100,
+    "qa_id": 59,
+    "category": "Common Weight Loss Misconceptions",
+    "question": "Do fat burner supplements really work?",
+    "answer": "Most commercial products have very little scientific backing or produce negligible, clinically insignificant results. Some also pose risks of side effects like palpitations, high blood pressure, or contamination with banned substances, especially those bought online from unreliable sources. You should consult a doctor before using any weight loss supplements.",
+    "text": "ou should consult a doctor before using any weight loss supplements.",
+    "part_idx": 1,
+    "line_no": 425
+  },
+  {
+    "chunk_id": 101,
+    "qa_id": 60,
+    "category": "Common Weight Loss Misconceptions",
+    "question": "Is it true that some fruits are \"negative calorie foods\"?",
+    "answer": "The concept that some foods require more energy to digest than they provide, resulting in a net negative calorie effect, is not supported by scientific evidence. Foods like celery or cucumbers are low in calories and high in fiber, making them great for weight control, but it doesn't mean they yield a negative net energy as commonly claimed.",
+    "text": "Question: Is it true that some fruits are \"negative calorie foods\"? Answer: The concept that some foods require more energy to digest than they provide, resulting in a net negative calorie effect, is not supported by scientific evidence. Foods like celery or cucumbers are low in calories and high in fiber, making them great for weight control, but it doesn't mean they yield a negative net energy a",
+    "part_idx": 0,
+    "line_no": 432
+  },
+  {
+    "chunk_id": 102,
+    "qa_id": 60,
+    "category": "Common Weight Loss Misconceptions",
+    "question": "Is it true that some fruits are \"negative calorie foods\"?",
+    "answer": "The concept that some foods require more energy to digest than they provide, resulting in a net negative calorie effect, is not supported by scientific evidence. Foods like celery or cucumbers are low in calories and high in fiber, making them great for weight control, but it doesn't mean they yield a negative net energy as commonly claimed.",
+    "text": "it doesn't mean they yield a negative net energy as commonly claimed.",
+    "part_idx": 1,
+    "line_no": 432
+  },
+  {
+    "chunk_id": 103,
+    "qa_id": 61,
+    "category": "Common Weight Loss Misconceptions",
+    "question": "Do you really have to skip dinner to get thin?",
+    "answer": "False. As mentioned, total daily calories are more important than any single meal. Skipping dinner might help reduce total calories for some if they don't overcompensate in other meals, but it is not a mandatory rule for weight loss. Some people who are very hungry at night might struggle to sleep or resort to snacking, which is harder to control.",
+    "text": "Question: Do you really have to skip dinner to get thin? Answer: False. As mentioned, total daily calories are more important than any single meal. Skipping dinner might help reduce total calories for some if they don't overcompensate in other meals, but it is not a mandatory rule for weight loss. Some people who are very hungry at night might struggle to sleep or resort to snacking, which is hard",
+    "part_idx": 0,
+    "line_no": 439
+  },
+  {
+    "chunk_id": 104,
+    "qa_id": 61,
+    "category": "Common Weight Loss Misconceptions",
+    "question": "Do you really have to skip dinner to get thin?",
+    "answer": "False. As mentioned, total daily calories are more important than any single meal. Skipping dinner might help reduce total calories for some if they don't overcompensate in other meals, but it is not a mandatory rule for weight loss. Some people who are very hungry at night might struggle to sleep or resort to snacking, which is harder to control.",
+    "text": "ggle to sleep or resort to snacking, which is harder to control.",
+    "part_idx": 1,
+    "line_no": 439
+  },
+  {
+    "chunk_id": 105,
+    "qa_id": 62,
+    "category": "Common Weight Loss Misconceptions",
+    "question": "Can a juice detox really provide permanent weight loss?",
+    "answer": "Weight lost during a short-term detox is mostly water weight and reduced digestive system contents, not true fat loss. The body naturally has the liver and kidneys to eliminate toxins without needing detox products. When returning to a normal diet, weight usually rebounds quickly, and fasting from solid foods for too long can be dangerous for some.",
+    "text": "Question: Can a juice detox really provide permanent weight loss? Answer: Weight lost during a short-term detox is mostly water weight and reduced digestive system contents, not true fat loss. The body naturally has the liver and kidneys to eliminate toxins without needing detox products. When returning to a normal diet, weight usually rebounds quickly, and fasting from solid foods for too long ca",
+    "part_idx": 0,
+    "line_no": 446
+  },
+  {
+    "chunk_id": 106,
+    "qa_id": 62,
+    "category": "Common Weight Loss Misconceptions",
+    "question": "Can a juice detox really provide permanent weight loss?",
+    "answer": "Weight lost during a short-term detox is mostly water weight and reduced digestive system contents, not true fat loss. The body naturally has the liver and kidneys to eliminate toxins without needing detox products. When returning to a normal diet, weight usually rebounds quickly, and fasting from solid foods for too long can be dangerous for some.",
+    "text": "ckly, and fasting from solid foods for too long can be dangerous for some.",
+    "part_idx": 1,
+    "line_no": 446
+  },
+  {
+    "chunk_id": 107,
+    "qa_id": 63,
+    "category": "Common Weight Loss Misconceptions",
+    "question": "Can sugar-free sweets be eaten in unlimited amounts?",
+    "answer": "No. Even though sugar calories are reduced or zero, these products often still contain calories from fats or other carbs in the recipe. Consuming sweets frequently, even without sugar, can reinforce a sweet tooth habit in the long run. You should look at the total calories of the product, not just the \"sugar-free\" label.",
+    "text": "Question: Can sugar-free sweets be eaten in unlimited amounts? Answer: No. Even though sugar calories are reduced or zero, these products often still contain calories from fats or other carbs in the recipe. Consuming sweets frequently, even without sugar, can reinforce a sweet tooth habit in the long run. You should look at the total calories of the product, not just the \"sugar-free\" label.",
+    "part_idx": 0,
+    "line_no": 453
+  },
+  {
+    "chunk_id": 108,
+    "qa_id": 64,
+    "category": "Groups Requiring Special Caution",
+    "question": "How should diabetic patients adjust their weight loss diet specifically?",
+    "answer": "They should work closely with a doctor or dietitian because adjusting calories and carbs directly impacts medication or insulin requirements. Suddenly dropping carbs without adjusting meds can lead to dangerously low blood sugar. The focus should be on complex, high-fiber carbs, evenly spaced meals, and monitoring blood sugar as advised by a doctor.",
+    "text": "Question: How should diabetic patients adjust their weight loss diet specifically? Answer: They should work closely with a doctor or dietitian because adjusting calories and carbs directly impacts medication or insulin requirements. Suddenly dropping carbs without adjusting meds can lead to dangerously low blood sugar. The focus should be on complex, high-fiber carbs, evenly spaced meals, and moni",
+    "part_idx": 0,
+    "line_no": 460
+  },
+  {
+    "chunk_id": 109,
+    "qa_id": 64,
+    "category": "Groups Requiring Special Caution",
+    "question": "How should diabetic patients adjust their weight loss diet specifically?",
+    "answer": "They should work closely with a doctor or dietitian because adjusting calories and carbs directly impacts medication or insulin requirements. Suddenly dropping carbs without adjusting meds can lead to dangerously low blood sugar. The focus should be on complex, high-fiber carbs, evenly spaced meals, and monitoring blood sugar as advised by a doctor.",
+    "text": "x, high-fiber carbs, evenly spaced meals, and monitoring blood sugar as advised by a doctor.",
+    "part_idx": 1,
+    "line_no": 460
+  },
+  {
+    "chunk_id": 110,
+    "qa_id": 65,
+    "category": "Groups Requiring Special Caution",
+    "question": "How can breastfeeding women lose weight without affecting milk supply?",
+    "answer": "Weight loss should be gradual and not overly calorie-restricted, as the body needs extra energy to produce milk. Restricting calories too much can affect milk volume or quality. The focus should be on nutrient-dense foods, adequate hydration, and consulting a doctor or dietitian before starting a weight loss plan during this time.",
+    "text": "Question: How can breastfeeding women lose weight without affecting milk supply? Answer: Weight loss should be gradual and not overly calorie-restricted, as the body needs extra energy to produce milk. Restricting calories too much can affect milk volume or quality. The focus should be on nutrient-dense foods, adequate hydration, and consulting a doctor or dietitian before starting a weight loss p",
+    "part_idx": 0,
+    "line_no": 467
+  },
+  {
+    "chunk_id": 111,
+    "qa_id": 65,
+    "category": "Groups Requiring Special Caution",
+    "question": "How can breastfeeding women lose weight without affecting milk supply?",
+    "answer": "Weight loss should be gradual and not overly calorie-restricted, as the body needs extra energy to produce milk. Restricting calories too much can affect milk volume or quality. The focus should be on nutrient-dense foods, adequate hydration, and consulting a doctor or dietitian before starting a weight loss plan during this time.",
+    "text": "octor or dietitian before starting a weight loss plan during this time.",
+    "part_idx": 1,
+    "line_no": 467
+  },
+  {
+    "chunk_id": 112,
+    "qa_id": 66,
+    "category": "Groups Requiring Special Caution",
+    "question": "Should teenagers use strict dieting methods to lose weight?",
+    "answer": "Strict calorie restriction is not recommended during years of growth and development, as it can stunt height, disrupt development, and foster an unhealthy relationship with food long-term. The focus should be on building balanced eating habits and fun physical activities, ideally under the supervision of a doctor or a pediatric nutrition specialist.",
+    "text": "Question: Should teenagers use strict dieting methods to lose weight? Answer: Strict calorie restriction is not recommended during years of growth and development, as it can stunt height, disrupt development, and foster an unhealthy relationship with food long-term. The focus should be on building balanced eating habits and fun physical activities, ideally under the supervision of a doctor or a pe",
+    "part_idx": 0,
+    "line_no": 474
+  },
+  {
+    "chunk_id": 113,
+    "qa_id": 66,
+    "category": "Groups Requiring Special Caution",
+    "question": "Should teenagers use strict dieting methods to lose weight?",
+    "answer": "Strict calorie restriction is not recommended during years of growth and development, as it can stunt height, disrupt development, and foster an unhealthy relationship with food long-term. The focus should be on building balanced eating habits and fun physical activities, ideally under the supervision of a doctor or a pediatric nutrition specialist.",
+    "text": " ideally under the supervision of a doctor or a pediatric nutrition specialist.",
+    "part_idx": 1,
+    "line_no": 474
+  },
+  {
+    "chunk_id": 114,
+    "qa_id": 67,
+    "category": "Groups Requiring Special Caution",
+    "question": "What should the elderly be particularly cautious about when losing weight?",
+    "answer": "They must be careful not to lack protein and essential nutrients due to the risk of muscle loss (sarcopenia), which affects balance and increases fall risk. Calorie reduction must be done cautiously alongside resistance training to preserve muscle. A health check with a doctor is necessary before making significant dietary changes.",
+    "text": "Question: What should the elderly be particularly cautious about when losing weight? Answer: They must be careful not to lack protein and essential nutrients due to the risk of muscle loss (sarcopenia), which affects balance and increases fall risk. Calorie reduction must be done cautiously alongside resistance training to preserve muscle. A health check with a doctor is necessary before making si",
+    "part_idx": 0,
+    "line_no": 481
+  },
+  {
+    "chunk_id": 115,
+    "qa_id": 67,
+    "category": "Groups Requiring Special Caution",
+    "question": "What should the elderly be particularly cautious about when losing weight?",
+    "answer": "They must be careful not to lack protein and essential nutrients due to the risk of muscle loss (sarcopenia), which affects balance and increases fall risk. Calorie reduction must be done cautiously alongside resistance training to preserve muscle. A health check with a doctor is necessary before making significant dietary changes.",
+    "text": " check with a doctor is necessary before making significant dietary changes.",
+    "part_idx": 1,
+    "line_no": 481
+  },
+  {
+    "chunk_id": 116,
+    "qa_id": 68,
+    "category": "Groups Requiring Special Caution",
+    "question": "What should people with a history of eating disorders watch out for when trying to lose weight?",
+    "answer": "They should consult a doctor or mental health and nutrition expert before starting any diet plan. Setting strict food rules can trigger a relapse into previous behaviors. Care should focus on a healthy relationship with food and overall well-being rather than just the number on the scale or calories alone.",
+    "text": "Question: What should people with a history of eating disorders watch out for when trying to lose weight? Answer: They should consult a doctor or mental health and nutrition expert before starting any diet plan. Setting strict food rules can trigger a relapse into previous behaviors. Care should focus on a healthy relationship with food and overall well-being rather than just the number on the sca",
+    "part_idx": 0,
+    "line_no": 488
+  },
+  {
+    "chunk_id": 117,
+    "qa_id": 68,
+    "category": "Groups Requiring Special Caution",
+    "question": "What should people with a history of eating disorders watch out for when trying to lose weight?",
+    "answer": "They should consult a doctor or mental health and nutrition expert before starting any diet plan. Setting strict food rules can trigger a relapse into previous behaviors. Care should focus on a healthy relationship with food and overall well-being rather than just the number on the scale or calories alone.",
+    "text": " well-being rather than just the number on the scale or calories alone.",
+    "part_idx": 1,
+    "line_no": 488
+  },
+  {
+    "chunk_id": 118,
+    "qa_id": 69,
+    "category": "Exercise and Nutrition",
+    "question": "What should I eat before exercising for energy without ruining weight loss?",
+    "answer": "A pre-workout meal should include a small amount of easily digestible carbs for energy, like a banana or a small slice of whole wheat bread, eaten about 30 minutes to an hour beforehand. Avoid eating until overly full or exercising on a completely empty stomach, especially for intense or prolonged workouts.",
+    "text": "Question: What should I eat before exercising for energy without ruining weight loss? Answer: A pre-workout meal should include a small amount of easily digestible carbs for energy, like a banana or a small slice of whole wheat bread, eaten about 30 minutes to an hour beforehand. Avoid eating until overly full or exercising on a completely empty stomach, especially for intense or prolonged workout",
+    "part_idx": 0,
+    "line_no": 495
+  },
+  {
+    "chunk_id": 119,
+    "qa_id": 69,
+    "category": "Exercise and Nutrition",
+    "question": "What should I eat before exercising for energy without ruining weight loss?",
+    "answer": "A pre-workout meal should include a small amount of easily digestible carbs for energy, like a banana or a small slice of whole wheat bread, eaten about 30 minutes to an hour beforehand. Avoid eating until overly full or exercising on a completely empty stomach, especially for intense or prolonged workouts.",
+    "text": "omach, especially for intense or prolonged workouts.",
+    "part_idx": 1,
+    "line_no": 495
+  },
+  {
+    "chunk_id": 120,
+    "qa_id": 70,
+    "category": "Exercise and Nutrition",
+    "question": "What should I eat post-workout for recovery without sabotaging weight loss goals?",
+    "answer": "It should include protein to repair muscles and an appropriate amount of carbs to replenish used energy, such as a boiled egg with fruit, or Greek yogurt with grains. You do not need to overcompensate by eating more calories than burned, as exercise usually burns fewer calories than many people estimate.",
+    "text": "Question: What should I eat post-workout for recovery without sabotaging weight loss goals? Answer: It should include protein to repair muscles and an appropriate amount of carbs to replenish used energy, such as a boiled egg with fruit, or Greek yogurt with grains. You do not need to overcompensate by eating more calories than burned, as exercise usually burns fewer calories than many people esti",
+    "part_idx": 0,
+    "line_no": 502
+  },
+  {
+    "chunk_id": 121,
+    "qa_id": 70,
+    "category": "Exercise and Nutrition",
+    "question": "What should I eat post-workout for recovery without sabotaging weight loss goals?",
+    "answer": "It should include protein to repair muscles and an appropriate amount of carbs to replenish used energy, such as a boiled egg with fruit, or Greek yogurt with grains. You do not need to overcompensate by eating more calories than burned, as exercise usually burns fewer calories than many people estimate.",
+    "text": "usually burns fewer calories than many people estimate.",
+    "part_idx": 1,
+    "line_no": 502
+  },
+  {
+    "chunk_id": 122,
+    "qa_id": 71,
+    "category": "Exercise and Nutrition",
+    "question": "Is it appropriate to reward yourself with sweets after every workout?",
+    "answer": "You should be careful, as calories from sweets are often much higher than the calories burned during a short workout. For example, a light 30-minute run might burn fewer calories than a small piece of cake. Rewarding yourself in non-food ways, such as relaxing or doing a favorite activity, helps maintain goals better.",
+    "text": "Question: Is it appropriate to reward yourself with sweets after every workout? Answer: You should be careful, as calories from sweets are often much higher than the calories burned during a short workout. For example, a light 30-minute run might burn fewer calories than a small piece of cake. Rewarding yourself in non-food ways, such as relaxing or doing a favorite activity, helps maintain goals ",
+    "part_idx": 0,
+    "line_no": 509
+  },
+  {
+    "chunk_id": 123,
+    "qa_id": 71,
+    "category": "Exercise and Nutrition",
+    "question": "Is it appropriate to reward yourself with sweets after every workout?",
+    "answer": "You should be careful, as calories from sweets are often much higher than the calories burned during a short workout. For example, a light 30-minute run might burn fewer calories than a small piece of cake. Rewarding yourself in non-food ways, such as relaxing or doing a favorite activity, helps maintain goals better.",
+    "text": "r doing a favorite activity, helps maintain goals better.",
+    "part_idx": 1,
+    "line_no": 509
+  },
+  {
+    "chunk_id": 124,
+    "qa_id": 72,
+    "category": "Exercise and Nutrition",
+    "question": "Cardio vs. Weight Training: which burns fat better?",
+    "answer": "Both have distinct benefits. Cardio burns more calories during the exercise session itself. Weight training builds and preserves muscle mass, which increases the long-term basal metabolic rate. Combining both with diet control usually yields the best results for long-term fat loss and body shaping.",
+    "text": "Question: Cardio vs. Weight Training: which burns fat better? Answer: Both have distinct benefits. Cardio burns more calories during the exercise session itself. Weight training builds and preserves muscle mass, which increases the long-term basal metabolic rate. Combining both with diet control usually yields the best results for long-term fat loss and body shaping.",
+    "part_idx": 0,
+    "line_no": 516
+  },
+  {
+    "chunk_id": 125,
+    "qa_id": 73,
+    "category": "Thai Food and Adjusting Recipes for Weight Loss",
+    "question": "Which Thai dishes are suitable for weight loss?",
+    "answer": "Dishes that are boiled, spicy salads (yum), steamed, or curries without coconut milk, such as Tom Yum clear soup, glass noodle salad, spicy vegetable soup (Kaeng Liang), steamed fish with lime, or Larb gai with less toasted rice, are usually lower in calories and high in vegetables or herbs. Beware of dishes heavy in coconut milk, deep-fried, or loaded with palm sugar, like rich green curry, Pad Thai, or braised pork leg on rice.",
+    "text": "Question: Which Thai dishes are suitable for weight loss? Answer: Dishes that are boiled, spicy salads (yum), steamed, or curries without coconut milk, such as Tom Yum clear soup, glass noodle salad, spicy vegetable soup (Kaeng Liang), steamed fish with lime, or Larb gai with less toasted rice, are usually lower in calories and high in vegetables or herbs. Beware of dishes heavy in coconut milk, d",
+    "part_idx": 0,
+    "line_no": 523
+  },
+  {
+    "chunk_id": 126,
+    "qa_id": 73,
+    "category": "Thai Food and Adjusting Recipes for Weight Loss",
+    "question": "Which Thai dishes are suitable for weight loss?",
+    "answer": "Dishes that are boiled, spicy salads (yum), steamed, or curries without coconut milk, such as Tom Yum clear soup, glass noodle salad, spicy vegetable soup (Kaeng Liang), steamed fish with lime, or Larb gai with less toasted rice, are usually lower in calories and high in vegetables or herbs. Beware of dishes heavy in coconut milk, deep-fried, or loaded with palm sugar, like rich green curry, Pad Thai, or braised pork leg on rice.",
+    "text": "r herbs. Beware of dishes heavy in coconut milk, deep-fried, or loaded with palm sugar, like rich green curry, Pad Thai, or braised pork leg on rice.",
+    "part_idx": 1,
+    "line_no": 523
+  },
+  {
+    "chunk_id": 127,
+    "qa_id": 74,
+    "category": "Thai Food and Adjusting Recipes for Weight Loss",
+    "question": "Which Thai dipping sauces and condiments are high in calories and should be avoided?",
+    "answer": "Sauces with palm sugar or coconut sugar as a main ingredient, such as sweet chili sauce, Jaew sauce, or Suki sauce, are often high in sugar per tablespoon. Use small amounts or ask for them on the side to control portions. Shrimp paste dip (Nam Prik Kapi) or seafood sauces emphasizing lime, chili, and garlic are generally lower in calories and add flavor without needing much oil or sugar.",
+    "text": "Question: Which Thai dipping sauces and condiments are high in calories and should be avoided? Answer: Sauces with palm sugar or coconut sugar as a main ingredient, such as sweet chili sauce, Jaew sauce, or Suki sauce, are often high in sugar per tablespoon. Use small amounts or ask for them on the side to control portions. Shrimp paste dip (Nam Prik Kapi) or seafood sauces emphasizing lime, chili",
+    "part_idx": 0,
+    "line_no": 530
+  },
+  {
+    "chunk_id": 128,
+    "qa_id": 74,
+    "category": "Thai Food and Adjusting Recipes for Weight Loss",
+    "question": "Which Thai dipping sauces and condiments are high in calories and should be avoided?",
+    "answer": "Sauces with palm sugar or coconut sugar as a main ingredient, such as sweet chili sauce, Jaew sauce, or Suki sauce, are often high in sugar per tablespoon. Use small amounts or ask for them on the side to control portions. Shrimp paste dip (Nam Prik Kapi) or seafood sauces emphasizing lime, chili, and garlic are generally lower in calories and add flavor without needing much oil or sugar.",
+    "text": "ik Kapi) or seafood sauces emphasizing lime, chili, and garlic are generally lower in calories and add flavor without needing much oil or sugar.",
+    "part_idx": 1,
+    "line_no": 530
+  },
+  {
+    "chunk_id": 129,
+    "qa_id": 75,
+    "category": "Thai Food and Adjusting Recipes for Weight Loss",
+    "question": "How can I avoid using coconut milk in curries every time while keeping them tasty?",
+    "answer": "You can use low-fat coconut milk or halve the amount and top up with broth or water to maintain the liquid volume. Alternatively, choose clear curries like sour curry (Kaeng Som) or spicy vegetable soup (Kaeng Liang) over rich coconut curries. Adding various vegetables to the curry also boosts fiber and fullness without adding many calories.",
+    "text": "Question: How can I avoid using coconut milk in curries every time while keeping them tasty? Answer: You can use low-fat coconut milk or halve the amount and top up with broth or water to maintain the liquid volume. Alternatively, choose clear curries like sour curry (Kaeng Som) or spicy vegetable soup (Kaeng Liang) over rich coconut curries. Adding various vegetables to the curry also boosts fibe",
+    "part_idx": 0,
+    "line_no": 537
+  },
+  {
+    "chunk_id": 130,
+    "qa_id": 75,
+    "category": "Thai Food and Adjusting Recipes for Weight Loss",
+    "question": "How can I avoid using coconut milk in curries every time while keeping them tasty?",
+    "answer": "You can use low-fat coconut milk or halve the amount and top up with broth or water to maintain the liquid volume. Alternatively, choose clear curries like sour curry (Kaeng Som) or spicy vegetable soup (Kaeng Liang) over rich coconut curries. Adding various vegetables to the curry also boosts fiber and fullness without adding many calories.",
+    "text": "g various vegetables to the curry also boosts fiber and fullness without adding many calories.",
+    "part_idx": 1,
+    "line_no": 537
+  },
+  {
+    "chunk_id": 131,
+    "qa_id": 76,
+    "category": "Thai Food and Adjusting Recipes for Weight Loss",
+    "question": "How should I order made-to-order rice and curry dishes to lower calories?",
+    "answer": "Ask for half the rice and more vegetables or protein instead. Choose stir-fried veggies or boiled dishes over deep-fried items or coconut curries. Avoid pouring large amounts of oily curry sauce over the rice, and select dishes centered on lean meats, such as basil stir-fry with chicken (Pad Kra Pao) without a fried egg, instead of pork belly.",
+    "text": "Question: How should I order made-to-order rice and curry dishes to lower calories? Answer: Ask for half the rice and more vegetables or protein instead. Choose stir-fried veggies or boiled dishes over deep-fried items or coconut curries. Avoid pouring large amounts of oily curry sauce over the rice, and select dishes centered on lean meats, such as basil stir-fry with chicken (Pad Kra Pao) withou",
+    "part_idx": 0,
+    "line_no": 544
+  },
+  {
+    "chunk_id": 132,
+    "qa_id": 76,
+    "category": "Thai Food and Adjusting Recipes for Weight Loss",
+    "question": "How should I order made-to-order rice and curry dishes to lower calories?",
+    "answer": "Ask for half the rice and more vegetables or protein instead. Choose stir-fried veggies or boiled dishes over deep-fried items or coconut curries. Avoid pouring large amounts of oily curry sauce over the rice, and select dishes centered on lean meats, such as basil stir-fry with chicken (Pad Kra Pao) without a fried egg, instead of pork belly.",
+    "text": "s basil stir-fry with chicken (Pad Kra Pao) without a fried egg, instead of pork belly.",
+    "part_idx": 1,
+    "line_no": 544
+  },
+  {
+    "chunk_id": 133,
+    "qa_id": 77,
+    "category": "Thai Food and Adjusting Recipes for Weight Loss",
+    "question": "Are there lower-calorie Thai dessert options for weight loss?",
+    "answer": "Most Thai desserts are heavily based on sugar and coconut milk, making them quite high in calories overall. If you want a sweet treat occasionally, desserts with less coconut milk that focus on fruit, like fruits in light syrup, or bananas in coconut milk (Kluay Buat Chi) with reduced coconut milk, are lower in calories than highly concentrated sugar/coconut milk sweets. They should be eaten in small portions and infrequently.",
+    "text": "Question: Are there lower-calorie Thai dessert options for weight loss? Answer: Most Thai desserts are heavily based on sugar and coconut milk, making them quite high in calories overall. If you want a sweet treat occasionally, desserts with less coconut milk that focus on fruit, like fruits in light syrup, or bananas in coconut milk (Kluay Buat Chi) with reduced coconut milk, are lower in calorie",
+    "part_idx": 0,
+    "line_no": 551
+  },
+  {
+    "chunk_id": 134,
+    "qa_id": 77,
+    "category": "Thai Food and Adjusting Recipes for Weight Loss",
+    "question": "Are there lower-calorie Thai dessert options for weight loss?",
+    "answer": "Most Thai desserts are heavily based on sugar and coconut milk, making them quite high in calories overall. If you want a sweet treat occasionally, desserts with less coconut milk that focus on fruit, like fruits in light syrup, or bananas in coconut milk (Kluay Buat Chi) with reduced coconut milk, are lower in calories than highly concentrated sugar/coconut milk sweets. They should be eaten in small portions and infrequently.",
+    "text": "i) with reduced coconut milk, are lower in calories than highly concentrated sugar/coconut milk sweets. They should be eaten in small portions and infrequently.",
+    "part_idx": 1,
+    "line_no": 551
+  }
+]

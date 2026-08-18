@@ -1,0 +1,13 @@
+{
+  "file": {
+    "size": 37335,
+    "mtime": 1787071882
+  },
+  "settings": {
+    "CHUNK_SIZE": 400,
+    "CHUNK_OVERLAP": 50,
+    "EMBEDDING_MODEL_NAME": "paraphrase-multilingual-MiniLM-L12-v2"
+  },
+  "n_chunks": 135,
+  "source_file": "qa_looseweight.txt"
+}
