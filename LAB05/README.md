@@ -1,7 +1,6 @@
 # 📊 รายงานการวิเคราะห์: “ปัญหาและการแก้ไขปัญหาของ RAG System”
 ## 🥗 Weight Loss & Nutrition RAG System (DL-05 ต่อยอดจาก LAB04)
 
-
 > [!NOTE]
 > ### 📌 ข้อมูลแล็ป
 > * **วิชา:** Advanced Topic in Computer Software (ATCS)  
@@ -10,27 +9,29 @@
 
 ---
 
+<a id="table-of-contents" name="table-of-contents"></a>
 ## 📑 สารบัญ (Table of Contents)
 
-1. [🏗️ สถาปัตยกรรมระบบ RAG (System Architecture)](#1-สถาปัตยกรรมระบบ-rag-system-architecture)
-2. [📋 ตารางสรุปการวิเคราะห์ปัญหาและแนวทางแก้ไข 10 ขั้นตอน](#2-ตารางสรุปการวิเคราะห์ปัญหาและแนวทางแก้ไข-10-ขั้นตอน)
-3. [🔍 การวิเคราะห์เจาะลึก 10 ปัญหาตาม Source Code จริง](#3-การวิเคราะห์เจาะลึก-10-ปัญหาตาม-source-code-จริง)
-   - [🛑 ปัญหาที่ 1: การตอบนอกบริบทและการเกิดภาพหลอน (Hallucination)](#-ปัญหาที่-1-การตอบนอกบริบทและการเกิดภาพหลอน-hallucination)
-   - [🔤 ปัญหาที่ 2: ความไม่ตรงกันของคำศัพท์และลำดับคำ (Vocabulary Mismatch)](#-ปัญหาที่-2-ความไม่ตรงกันของคำศัพท์และลำดับคำ-vocabulary-mismatch)
-   - [🧹 ปัญหาที่ 3: คุณภาพของข้อมูลดิบและบั๊กตัวโหลด (Data Quality & Multi-line Parsing)](#-ปัญหาที่-3-คุณภาพของข้อมูลดิบและบั๊กตัวโหลด-data-quality--multi-line-parsing)
-   - [✂️ ปัญหาที่ 4: การแบ่งข้อความและการตัดคำขาดกลางคำ (Chunking Truncation)](#-ปัญหาที่-4-การแบ่งข้อความและการตัดคำขาดกลางคำ-chunking-truncation)
-   - [🏷️ ปัญหาที่ 5: การขาดการกรองด้วยข้อมูลกำกับ (Metadata Filtering)](#-ปัญหาที่-5-การขาดการกรองด้วยข้อมูลกำกับ-metadata-filtering)
-   - [⚡ ปัญหาที่ 6: คอขวดของ Retrieval ด่านแรกและการจัดอันดับใหม่ (Re-ranking)](#-ปัญหาที่-6-คอขวดของ-retrieval-ด่านแรกและการจัดอันดับใหม่-re-ranking)
-   - [🎯 ปัญหาที่ 7: การบิดเบือนข้อมูลข้อเท็จจริงในการตอบ (Generation Faithfulness)](#-ปัญหาที่-7-การบิดเบือนข้อมูลข้อเท็จจริงในการตอบ-generation-faithfulness)
-   - [⚙️ ปัญหาที่ 8: การชั่งน้ำหนักผลกระทบของการตั้งค่าระบบ (Configuration Trade-offs)](#-ปัญหาที่-8-การชั่งน้ำหนักผลกระทบของการตั้งค่าระบบ-configuration-trade-offs)
-   - [📈 ปัญหาที่ 9: การประเมินเชิงปริมาณและบั๊ก Golden Set (Evaluation Mismatch)](#-ปัญหาที่-9-การประเมินเชิงปริมาณและบั๊ก-golden-set-evaluation-mismatch)
-   - [🐛 ปัญหาที่ 10: บั๊กการบูรณาการระบบและคำศัพท์ค้างต่างโดเมน (Integration Bugs)](#-ปัญหาที่-10-บั๊กการบูรณาการระบบและคำศัพท์ค้างต่างโดเมน-integration-bugs)
-4. [⚙️ ตารางเปรียบเทียบ Profile สถาปัตยกรรม (Performance Trade-offs)](#4-ตารางเปรียบเทียบ-profile-สถาปัตยกรรม-performance-trade-offs)
-5. [🧪 โครงสร้างและการรันโปรแกรมจำลองปัญหาใน LAB05 (Simulation Suite)](#5-โครงสร้างและการรันโปรแกรมจำลองปัญหาใน-lab05-simulation-suite)
-6. [💡 ผลการประเมินเชิงปริมาณและข้อคิดสำคัญ (Evaluation & Takeaways)](#6-ผลการประเมินเชิงปริมาณและข้อคิดสำคัญ-evaluation--takeaways)
+1. [🏗️ 1. สถาปัตยกรรมระบบ RAG (System Architecture)](#section-1)
+2. [📋 2. ตารางสรุปการวิเคราะห์ปัญหาและแนวทางแก้ไข 10 ขั้นตอน](#section-2)
+3. [🔍 3. การวิเคราะห์เจาะลึก 10 ปัญหาตาม Source Code จริง](#section-3)
+   - [🛑 ปัญหาที่ 1: การตอบนอกบริบทและการเกิดภาพหลอน (Hallucination)](#problem-1)
+   - [🔤 ปัญหาที่ 2: ความไม่ตรงกันของคำศัพท์และลำดับคำ (Vocabulary Mismatch)](#problem-2)
+   - [🧹 ปัญหาที่ 3: คุณภาพของข้อมูลดิบและบั๊กตัวโหลด (Data Quality & Multi-line Parsing)](#problem-3)
+   - [✂️ ปัญหาที่ 4: การแบ่งข้อความและการตัดคำขาดกลางคำ (Chunking Truncation)](#problem-4)
+   - [🏷️ ปัญหาที่ 5: การขาดการกรองด้วยข้อมูลกำกับ (Metadata Filtering)](#problem-5)
+   - [⚡ ปัญหาที่ 6: คอขวดของ Retrieval ด่านแรกและการจัดอันดับใหม่ (Re-ranking)](#problem-6)
+   - [🎯 ปัญหาที่ 7: การบิดเบือนข้อมูลข้อเท็จจริงในการตอบ (Generation Faithfulness)](#problem-7)
+   - [⚙️ ปัญหาที่ 8: การชั่งน้ำหนักผลกระทบของการตั้งค่าระบบ (Configuration Trade-offs)](#problem-8)
+   - [📈 ปัญหาที่ 9: การประเมินเชิงปริมาณและบั๊ก Golden Set (Evaluation Mismatch)](#problem-9)
+   - [🐛 ปัญหาที่ 10: บั๊กการบูรณาการระบบและคำศัพท์ค้างต่างโดเมน (Integration Bugs)](#problem-10)
+4. [⚙️ 4. ตารางเปรียบเทียบ Profile สถาปัตยกรรม (Performance Trade-offs)](#section-4)
+5. [🧪 5. โครงสร้างและการรันโปรแกรมจำลองปัญหาใน LAB05 (Simulation Suite)](#section-5)
+6. [💡 6. ผลการประเมินเชิงปริมาณและข้อคิดสำคัญ (Evaluation & Takeaways)](#section-6)
 
 ---
 
+<a id="section-1" name="section-1"></a>
 ## 🏗️ 1. สถาปัตยกรรมระบบ RAG (System Architecture)
 
 ระบบ RAG ด้านการลดน้ำหนักและโภชนาการใน LAB04 ใช้สถาปัตยกรรม **Two-Stage Hybrid Retrieval with Grounded Generation**:
@@ -66,29 +67,36 @@ flowchart TD
     end
 ```
 
+[🔝 กลับสู่สารบัญ](#table-of-contents)
+
 ---
 
+<a id="section-2" name="section-2"></a>
 ## 📋 2. ตารางสรุปการวิเคราะห์ปัญหาและแนวทางแก้ไข 10 ขั้นตอน
 
 | # | ปัญหาของระบบ RAG | จุดที่พบในโค้ด LAB04 | สาเหตุของปัญหา (Root Cause) | วิธีการตรวจสอบ (Verification) | แนวทางการแก้ไขจริงในระบบ (Solution) |
 |:---:|---|---|---|---|---|
-| 🛑 **1** | **Hallucination**<br>LLM ตอบมั่วเมื่อไม่มีข้อมูล | `src/generator.py`<br>`src/prompt_templates.py` | Helpfulness Bias ของโมเดลพยายามเดาเมื่อ Context ว่าง | ตรวจสอบ `len(chunks) == 0` และทดสอบคำถามนอกโดเมน | ติดตั้ง Guardrail คืนค่า `NO_CONTEXT_MESSAGE` ทันที |
-| 🔤 **2** | **Vocabulary Mismatch**<br>คำถามสแลงแต่ KB ใช้ศัพท์ทางการ | `src/embedding_model.py`<br>`src/vector_store.py` | Bag-of-Words ไม่เข้าใจความหมายเชิงบริบท และละทิ้งลำดับคำ | เปรียบเทียบ Token Overlap เทียบกับ Dense Cosine Similarity | ใช้ Transformer (`MiniLM-L12-v2`) ที่มี Self-Attention และ Positional Encoding |
-| 🧹 **3** | **Data Quality & Bug**<br>คำตอบหลายบรรทัดถูกตัดทิ้ง | `src/document_loader.py`<br>`data/qa_looseweight.txt` | Parser รีเซ็ตคำถามทิ้งทันทีหลังพบบรรทัด `A:` แรก | สแกนหา Duplicate Hashes และตรวจนับจำนวนบรรทัด | ปรับเป็น Block-based Parser อ่านสะสมจนจบบล็อกข้อความ |
-| ✂️ **4** | **Chunking Truncation**<br>ตัดคำขาดกลางคำ และ Chunk ลูกหลุดบริบท | `src/text_splitter.py`<br>`config.py` | การตัดตามตัวอักษรดิบ (`CHUNK_SIZE=400`) คำว่า `"behavioral"` ขาดเป็น `"lo"` และ `"vioral"` | ตรวจดูรอยตัดคำใน `outputs/chunks.json` | ปรับจุดตัดให้อยู่ที่ขอบเขตคำ (Whitespace) และแปะหัวข้อคำถามทุก Chunk |
-| 🏷️ **5** | **Metadata Isolation**<br>ดึงข้อมูลผิดกลุ่มเป้าหมาย | `src/retriever.py`<br>`src/hybrid_retriever.py` | Semantic Search ไม่รู้ข้อจำกัดของผู้ใช้ (เช่น ผู้ป่วยโรคไต vs คนปกติ) | เปรียบเทียบผลค้นหาแบบ Global กับแบบกรอง Category | แนบ Metadata `category` กำกับไว้ทุก Chunk และทำ Pre-filtering |
-| ⚡ **6** | **First-Stage Ranking**<br>เอกสารเฉพาะทางตกไปอันดับล่าง | `src/rerankers.py`<br>`src/hybrid_retriever.py` | Bi-Encoder ให้น้ำหนักคำกว้างๆ ("weight", "diet") สูงเกินไป | ตรวจสอบ Hit@1 เทียบกับ Hit@10 ใน `eval_retrieval.json` | ดึง 20 ผู้เข้ารอบ แล้วใช้ Cross-Encoder (`bge-reranker-v2-m3`) จัดอันดับใหม่สู่ Top-3 |
-| 🎯 **7** | **Generation Distortion**<br>ค้นหาถูกแต่ LLM บิดเบือนตัวเลข | `src/generator.py`<br>`evaluation/eval_generation.py` | ค่า Temperature สูงเกินไปทำให้โมเดลสุ่มคำตอบเชิงสร้างสรรค์ | วัดค่าความสอดคล้อง (Faithfulness Score) | ลด `Temperature=0.2` และบังคับให้อ้างอิงตัวเลขตาม Context อย่างเคร่งครัด |
-| ⚙️ **8** | **Config Trade-offs**<br>ระบบช้าและเปลืองค่า API | `config.py`<br>`src/rag_pipeline.py` | แต่ละ Stage (Transform, Rerank) มี Overhead สูง | บันทึก Latency (`timings`) ของแต่ละ Stage | จัดทำ 3 สถาปัตยกรรม: High-Speed (18ms), Balanced (700ms), Precision (2,500ms) |
-| 📈 **9** | **Evaluation Mismatch**<br>ผลประเมิน Hit@1 ต่ำผิดปกติเหลือ 1.28% | `evaluation/build_golden_set.py`<br>`evaluation/metrics.py` | บั๊กใน `build_golden_set.py` แมป Chunk ID ไปเฉพาะชิ้นสุดท้าย | ตรวจสอบรหัส `relevant_chunk_ids` ใน `golden_set.json` | แก้ไขให้แมปครบทุก Chunk ของคำถามนั้น ทำให้ Hit@1 แท้จริงพุ่งเป็น 88.5% |
-| 🐛 **10** | **Pipeline Bugs**<br>KeyError และสแลงค้างต่างโดเมน | `evaluation/eval_generation.py`<br>`src/query_transform.py` | คีย์เวลาไม่ตรงกัน (`'รวม'` vs `'Total'`) และตารางสแลงเก่าค้าง | รัน Integration Test ตรวจจับ Unhandled Exceptions | แก้คีย์เวลาให้สอดคล้องกัน และเปลี่ยนตารางสแลงเป็นศัพท์ด้านการลดน้ำหนัก |
+| 🛑 **[1](#problem-1)** | **Hallucination**<br>LLM ตอบมั่วเมื่อไม่มีข้อมูล | `src/generator.py`<br>`src/prompt_templates.py` | Helpfulness Bias ของโมเดลพยายามเดาเมื่อ Context ว่าง | ตรวจสอบ `len(chunks) == 0` และทดสอบคำถามนอกโดเมน | ติดตั้ง Guardrail คืนค่า `NO_CONTEXT_MESSAGE` ทันที |
+| 🔤 **[2](#problem-2)** | **Vocabulary Mismatch**<br>คำถามสแลงแต่ KB ใช้ศัพท์ทางการ | `src/embedding_model.py`<br>`src/vector_store.py` | Bag-of-Words ไม่เข้าใจความหมายเชิงบริบท และละทิ้งลำดับคำ | เปรียบเทียบ Token Overlap เทียบกับ Dense Cosine Similarity | ใช้ Transformer (`MiniLM-L12-v2`) ที่มี Self-Attention และ Positional Encoding |
+| 🧹 **[3](#problem-3)** | **Data Quality & Bug**<br>คำตอบหลายบรรทัดถูกตัดทิ้ง | `src/document_loader.py`<br>`data/qa_looseweight.txt` | Parser รีเซ็ตคำถามทิ้งทันทีหลังพบบรรทัด `A:` แรก | สแกนหา Duplicate Hashes และตรวจนับจำนวนบรรทัด | ปรับเป็น Block-based Parser อ่านสะสมจนจบบล็อกข้อความ |
+| ✂️ **[4](#problem-4)** | **Chunking Truncation**<br>ตัดคำขาดกลางคำ และ Chunk ลูกหลุดบริบท | `src/text_splitter.py`<br>`config.py` | การตัดตามตัวอักษรดิบ (`CHUNK_SIZE=400`) คำว่า `"behavioral"` ขาดเป็น `"lo"` และ `"vioral"` | ตรวจดูรอยตัดคำใน `outputs/chunks.json` | ปรับจุดตัดให้อยู่ที่ขอบเขตคำ (Whitespace) และแปะหัวข้อคำถามทุก Chunk |
+| 🏷️ **[5](#problem-5)** | **Metadata Isolation**<br>ดึงข้อมูลผิดกลุ่มเป้าหมาย | `src/retriever.py`<br>`src/hybrid_retriever.py` | Semantic Search ไม่รู้ข้อจำกัดของผู้ใช้ (เช่น ผู้ป่วยโรคไต vs คนปกติ) | เปรียบเทียบผลค้นหาแบบ Global กับแบบกรอง Category | แนบ Metadata `category` กำกับไว้ทุก Chunk และทำ Pre-filtering |
+| ⚡ **[6](#problem-6)** | **First-Stage Ranking**<br>เอกสารเฉพาะทางตกไปอันดับล่าง | `src/rerankers.py`<br>`src/hybrid_retriever.py` | Bi-Encoder ให้น้ำหนักคำกว้างๆ ("weight", "diet") สูงเกินไป | ตรวจสอบ Hit@1 เทียบกับ Hit@10 ใน `eval_retrieval.json` | ดึง 20 ผู้เข้ารอบ แล้วใช้ Cross-Encoder (`bge-reranker-v2-m3`) จัดอันดับใหม่สู่ Top-3 |
+| 🎯 **[7](#problem-7)** | **Generation Distortion**<br>ค้นหาถูกแต่ LLM บิดเบือนตัวเลข | `src/generator.py`<br>`evaluation/eval_generation.py` | ค่า Temperature สูงเกินไปทำให้โมเดลสุ่มคำตอบเชิงสร้างสรรค์ | วัดค่าความสอดคล้อง (Faithfulness Score) | ลด `Temperature=0.2` และบังคับให้อ้างอิงตัวเลขตาม Context อย่างเคร่งครัด |
+| ⚙️ **[8](#problem-8)** | **Config Trade-offs**<br>ระบบช้าและเปลืองค่า API | `config.py`<br>`src/rag_pipeline.py` | แต่ละ Stage (Transform, Rerank) มี Overhead สูง | บันทึก Latency (`timings`) ของแต่ละ Stage | จัดทำ 3 สถาปัตยกรรม: High-Speed (18ms), Balanced (700ms), Precision (2,500ms) |
+| 📈 **[9](#problem-9)** | **Evaluation Mismatch**<br>ผลประเมิน Hit@1 ต่ำผิดปกติเหลือ 1.28% | `evaluation/build_golden_set.py`<br>`evaluation/metrics.py` | บั๊กใน `build_golden_set.py` แมป Chunk ID ไปเฉพาะชิ้นสุดท้าย | ตรวจสอบรหัส `relevant_chunk_ids` ใน `golden_set.json` | แก้ไขให้แมปครบทุก Chunk ของคำถามนั้น ทำให้ Hit@1 แท้จริงพุ่งเป็น 88.5% |
+| 🐛 **[10](#problem-10)** | **Pipeline Bugs**<br>KeyError และสแลงค้างต่างโดเมน | `evaluation/eval_generation.py`<br>`src/query_transform.py` | คีย์เวลาไม่ตรงกัน (`'รวม'` vs `'Total'`) และตารางสแลงเก่าค้าง | รัน Integration Test ตรวจจับ Unhandled Exceptions | แก้คีย์เวลาให้สอดคล้องกัน และเปลี่ยนตารางสแลงเป็นศัพท์ด้านการลดน้ำหนัก |
+
+[🔝 กลับสู่สารบัญ](#table-of-contents)
 
 ---
 
+<a id="section-3" name="section-3"></a>
 ## 🔍 3. การวิเคราะห์เจาะลึก 10 ปัญหาตาม Source Code จริง
 
 ---
 
+<a id="problem-1" name="problem-1"></a>
 ### 🛑 ปัญหาที่ 1: การตอบนอกบริบทและการเกิดภาพหลอน (Hallucination)
 * 📌 **รายละเอียดปัญหา:** เมื่อผู้ใช้ถามคำถามนอกขอบเขต เช่น *"What is the capital city of France?"* หากไม่มีระบบดักจับ LLM จะแต่งคำตอบขึ้นมาเองจากความจำภายใน (Hallucination)
 * 🔍 **สาเหตุ:** LLM มี Helpfulness Bias พยายามตอบคำถามเสมอ แม้ Retriever จะหาเอกสารไม่พบ (`chunks` เป็นลิสต์ว่าง)
@@ -105,16 +113,22 @@ flowchart TD
   +        }
   ```
 
+[🔝 กลับสู่สารบัญ](#table-of-contents)
+
 ---
 
+<a id="problem-2" name="problem-2"></a>
 ### 🔤 ปัญหาที่ 2: ความไม่ตรงกันของคำศัพท์และลำดับคำ (Vocabulary Mismatch)
 * 📌 **รายละเอียดปัญหา:** ผู้ใช้ถามภาษาพูด *"Why did my scale stop dropping?"* แต่ฐานข้อมูลบันทึกว่า *"Why is it easy to lose weight at first, but then it plateaus?"* หากใช้ Keyword Match จะค้นหาไม่พบเลย (Overlap = 0)
 * 🔍 **สาเหตุ:** การค้นหาคำตรงตัวไม่เข้าใจคำไวพจน์ (Synonyms) และไม่สนใจลำดับคำ (เช่น *"eat before exercise"* vs *"exercise before eat"*)
 * 🧪 **วิธีตรวจสอบ:** เปรียบเทียบผลลัพธ์ Token Overlap (0 คำ) เทียบกับ Cosine Similarity จาก Dense Vectors
 * 🛠️ **วิธีแก้จริงใน LAB04 (`src/embedding_model.py`):** ใช้โมเดล Transformer `paraphrase-multilingual-MiniLM-L12-v2` (384 มิติ) ซึ่งมี Self-Attention และ Positional Encoding ทำให้จับคู่ความหมายของประโยคได้แม่นยำ
 
+[🔝 กลับสู่สารบัญ](#table-of-contents)
+
 ---
 
+<a id="problem-3" name="problem-3"></a>
 ### 🧹 ปัญหาที่ 3: คุณภาพของข้อมูลดิบและบั๊กตัวโหลด (Data Quality & Multi-line Parsing)
 * 📌 **รายละเอียดปัญหา:** ข้อมูลดิบมีช่องว่างซ้ำซ้อน และคำตอบที่มีหลายย่อหน้าถูกตัดทิ้งเหลือเพียงบรรทัดแรก
 * 🔍 **สาเหตุ:** ใน `src/document_loader.py` มีการสั่ง `question = None` ทันทีหลังพบบรรทัด `A:` แรก ทำให้คำตอบบรรทัดถัดไปถูกทิ้งทั้งหมด
@@ -131,8 +145,11 @@ flowchart TD
   +    records.append({"question": question, "answer": " ".join(current_answer)})
   ```
 
+[🔝 กลับสู่สารบัญ](#table-of-contents)
+
 ---
 
+<a id="problem-4" name="problem-4"></a>
 ### ✂️ ปัญหาที่ 4: การแบ่งข้อความและการตัดคำขาดกลางคำ (Chunking Truncation)
 * 📌 **รายละเอียดปัญหา:** 
   1. ใน `outputs/chunks.json` คำว่า **"behavioral"** ถูกตัดขาด โดยท้าย Chunk 0 ได้คำว่า `"...choosing high-nutrient, lo"` และต้น Chunk 1 ได้คำว่า `"vioral changes, such as..."`
@@ -149,39 +166,54 @@ flowchart TD
   +    return [f"Question: {question}\nAnswer: {chunk}" for chunk in chunks]
   ```
 
+[🔝 กลับสู่สารบัญ](#table-of-contents)
+
 ---
 
+<a id="problem-5" name="problem-5"></a>
 ### 🏷️ ปัญหาที่ 5: การขาดการกรองด้วยข้อมูลกำกับ (Metadata Filtering)
 * 📌 **รายละเอียดปัญหา:** ในคำถามเดียวกัน เช่น *"How much protein should I eat?"* คนปกติควรได้รับคำแนะนำโปรตีนสูง แต่ผู้ป่วยโรคไตเรื้อรังต้องจำกัดโปรตีน หากค้นหาแบบรวม อาจดึงคำแนะนำคนปกติไปตอบผู้ป่วยโรคไต
 * 🔍 **สาเหตุ:** Semantic Similarity ค้นหาเฉพาะความคล้ายของข้อความ แต่ไม่รู้เงื่อนไขทางคลินิกของผู้ใช้
 * 🧪 **วิธีตรวจสอบ:** เปรียบเทียบผลค้นหาแบบ Global Search กับแบบกรองเฉพาะหมวดหมู่ `"Groups Requiring Special Caution"`
 * 🛠️ **วิธีแก้จริงใน LAB04:** แนบ Metadata `category` กำกับไว้ทุก Chunk และเพิ่มพารามิเตอร์ Pre-filtering ใน `src/retriever.py` เพื่อจำกัดขอบเขตการค้นหาก่อนคำนวณความคล้ายคลึง
 
+[🔝 กลับสู่สารบัญ](#table-of-contents)
+
 ---
 
+<a id="problem-6" name="problem-6"></a>
 ### ⚡ ปัญหาที่ 6: คอขวดของ Retrieval ด่านแรกและการจัดอันดับใหม่ (Re-ranking)
 * 📌 **รายละเอียดปัญหา:** คำถามเฉพาะทาง เช่น กลไก **"Yo-Yo Effect"** มักถูกเอกสารทั่วไปที่มีคำว่า *"weight loss diet"* บ่อยๆ แย่งขึ้นไปครองอันดับ 1–4 ส่งผลให้เอกสาร Yo-Yo ตกไปอยู่อันดับ 5–6 และหลุดออกจาก Top-3
 * 🔍 **สาเหตุ:** Bi-Encoder ในด่านแรกให้น้ำหนักกับคำกว้างๆ ประจำโดเมนสูงเกินไป
 * 🧪 **วิธีตรวจสอบ:** ตรวจสอบค่า Hit@1 เทียบกับ Hit@10 ใน `outputs/eval_retrieval.json`
 * 🛠️ **วิธีแก้จริงใน LAB04 (`src/rerankers.py`):** ใช้สถาปัตยกรรม Two-Stage Retrieval โดยดึงผู้เข้ารอบมาก่อน 20 รายการ (`CANDIDATE_K = 20`) แล้วใช้ Cross-Encoder (`bge-reranker-v2-m3`) คำนวณความสัมพันธ์เชิงลึก ดันเอกสาร Yo-Yo Effect ขึ้นสู่อันดับ 1
 
+[🔝 กลับสู่สารบัญ](#table-of-contents)
+
 ---
 
+<a id="problem-7" name="problem-7"></a>
 ### 🎯 ปัญหาที่ 7: การบิดเบือนข้อมูลข้อเท็จจริงในการตอบ (Generation Faithfulness)
 * 📌 **รายละเอียดปัญหา:** แม้ Retrieval จะดึงข้อมูลมาถูกต้อง แต่ LLM บิดเบือนตัวเลข เช่น แปลงสัดส่วนจานอาหารจาก "ผักครึ่งจาน โปรตีน 1/4 คาร์บ 1/4" เป็น "กินเนื้อ 3/4 และตัดผักทิ้งทั้งหมด"
 * 🔍 **สาเหตุ:** ค่า Temperature สูงเกินไป ทำให้โมเดลสร้างสรรค์คำตอบขึ้นมาเอง
 * 🧪 **วิธีตรวจสอบ:** คำนวณคะแนน `faithfulness` (Word Overlap ระหว่างคำตอบกับ Context)
 * 🛠️ **วิธีแก้จริงใน LAB04:** กำหนด `LLM_TEMPERATURE = 0.2` และใช้ System Prompt สั่งตอบเฉพาะข้อมูลที่มีในเอกสารพร้อมใส่เลขอ้างอิง `[n]` อย่างเคร่งครัด
 
+[🔝 กลับสู่สารบัญ](#table-of-contents)
+
 ---
 
+<a id="problem-8" name="problem-8"></a>
 ### ⚙️ ปัญหาที่ 8: การชั่งน้ำหนักผลกระทบของการตั้งค่าระบบ (Configuration Trade-offs)
 * 📌 **รายละเอียดปัญหา:** การเปิดฟังก์ชันเสริมทุกตัวพร้อมกัน ทำให้ Latency พุ่งสูงจาก 18ms เป็น 2,500ms และเสียค่า API เพิ่มขึ้นเป็นสองเท่า
 * 🔍 **สาเหตุ:** แต่ละ Stage (Query Transform, Re-rank) มี Computational Overhead แตกต่างกัน
 * 🛠️ **วิธีแก้จริงใน LAB04 (`config.py`):** รวบรวมตัวแปรควบคุมระบบไว้ที่เดียว และออกแบบ Profile สถาปัตยกรรมให้สอดคล้องกับลักษณะงานจริง (ดูตารางเปรียบเทียบในหัวข้อที่ 4)
 
+[🔝 กลับสู่สารบัญ](#table-of-contents)
+
 ---
 
+<a id="problem-9" name="problem-9"></a>
 ### 📈 ปัญหาที่ 9: การประเมินเชิงปริมาณและบั๊ก Golden Set (Evaluation Mismatch)
 * 📌 **รายละเอียดปัญหา:** ผลประเมินเริ่มต้นใน `outputs/eval_retrieval.json` ได้คะแนน **Hit@1 เพียง 1.28%** ขัดแย้งกับการทดลองใช้งานจริงที่ระบบตอบคำถามได้อย่างแม่นยำ
 * 🔍 **สาเหตุ:** บั๊กใน `evaluation/build_golden_set.py` บันทึกทับรหัส Chunk ทำให้แมปคำตอบชี้ไปเฉพาะ Chunk ชิ้นสุดท้าย (ซึ่งมีแต่ปลายคำตอบ) แทนที่จะเป็น Chunk 0 (ที่มีคำถามและเนื้อหาหลัก)
@@ -196,8 +228,11 @@ flowchart TD
   > [!IMPORTANT]
   > **ผลลัพธ์หลังแก้ไข:** คะแนน **Hit@1 พุ่งขึ้นจาก 1.28% เป็น 88.46%** สะท้อนประสิทธิภาพแท้จริงของระบบ
 
+[🔝 กลับสู่สารบัญ](#table-of-contents)
+
 ---
 
+<a id="problem-10" name="problem-10"></a>
 ### 🐛 ปัญหาที่ 10: บั๊กการบูรณาการระบบและคำศัพท์ค้างต่างโดเมน (Integration Bugs)
 * 📌 **รายละเอียดปัญหา:** 
   1. สคริปต์ประเมินผลหยุดทำงานด้วย `KeyError: 'รวม'`
@@ -218,8 +253,11 @@ flowchart TD
   +}
   ```
 
+[🔝 กลับสู่สารบัญ](#table-of-contents)
+
 ---
 
+<a id="section-4" name="section-4"></a>
 ## ⚙️ 4. ตารางเปรียบเทียบ Profile สถาปัตยกรรม (Performance Trade-offs)
 
 | Profile สถาปัตยกรรม | Hybrid BM25 | Reranker | Query Transform | Memory | LLM | Latency โดยประมาณ | ต้นทุน / ค่าใช้จ่าย | กรณีการใช้งานที่เหมาะสม |
@@ -228,8 +266,11 @@ flowchart TD
 | **⚖️ 2. Standard Balanced (Default)** | **เปิด** | ปิด | ปิด | **เปิด** | **เปิด** | **~600-900 ms** | 1 LLM call | แชตบอตบริการทั่วไป ถาม-ตอบรวดเร็ว |
 | **🔬 3. Maximum Precision (Clinical)** | **เปิด** | **เปิด** | **เปิด** | **เปิด** | **เปิด** | **~2,500 ms** | 2 LLM + GPU | ระบบวินิจฉัยและคำแนะนำทางการแพทย์ |
 
+[🔝 กลับสู่สารบัญ](#table-of-contents)
+
 ---
 
+<a id="section-5" name="section-5"></a>
 ## 🧪 5. โครงสร้างและการรันโปรแกรมจำลองปัญหาใน LAB05 (Simulation Suite)
 
 ในโฟลเดอร์ `D:\ATCS-CPE-main\LAB05` ได้จัดเตรียมชุดสคริปต์ Standalone ที่จำลองและตรวจสอบปัญหาทั้ง 10 ข้อได้ทันที:
@@ -267,8 +308,11 @@ python problem09_evaluation.py
 python problem10_debug_scripts.py
 ```
 
+[🔝 กลับสู่สารบัญ](#table-of-contents)
+
 ---
 
+<a id="section-6" name="section-6"></a>
 ## 💡 6. ผลการประเมินเชิงปริมาณและข้อคิดสำคัญ (Evaluation & Takeaways)
 
 ### 📊 ตารางเปรียบเทียบผลการประเมิน ก่อน vs หลังแก้บั๊ก (LAB04 Verification):
@@ -286,3 +330,5 @@ python problem10_debug_scripts.py
 3. ⚡ **Two-Stage Retrieval คือสิ่งจำเป็น:** ใช้ Dense จับความหมาย ใช้ BM25 จับคำเฉพาะทาง และใช้ Cross-Encoder ดันข้อมูลสำคัญขึ้นสู่ Top-3
 4. 🛡️ **วาง Guardrails เสมอ:** ในโดเมนสุขภาพ ต้องตั้ง `Temperature = 0.2`, บังคับใส่หมายเลขอ้างอิง `[n]`, และปฏิเสธทันทีเมื่อไม่มีข้อมูล
 5. 📊 **ตรวจสอบชุดประเมินผลอย่างรัดกุม:** ก่อนตัดสินประสิทธิภาพของระบบ ต้องตรวจสอบว่า Ground Truth แมป Chunk ถูกต้อง เพื่อไม่ให้เกิดการประเมินผิดพลาด
+
+[🔝 กลับสู่สารบัญ](#table-of-contents)
