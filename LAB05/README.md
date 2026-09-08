@@ -67,31 +67,31 @@
 ```mermaid
 flowchart TD
     subgraph INGESTION ["📥 Ingestion & Indexing Pipeline (build_index.py)"]
-        Raw["📄 qa_looseweight.txt\n(78 Q&A pairs)"] --> Loader["src/document_loader.py\nBlock-based Parser"]
-        Loader --> Splitter["src/text_splitter.py\nChunk: 400 | Overlap: 50"]
-        Splitter --> Embed["src/embedding_model.py\nMiniLM-L12-v2 (384-d)"]
-        Splitter --> BM25_Idx["vector_db/bm25_index.pkl\n(RankBM25Okapi)"]
-        Embed --> FAISS_Idx["vector_db/document.index\n(FAISS IndexFlatIP)"]
+        Raw["📄 qa_looseweight.txt<br>(78 Q&A pairs)"] --> Loader["src/document_loader.py<br>Block-based Parser"]
+        Loader --> Splitter["src/text_splitter.py<br>Chunk: 400 | Overlap: 50"]
+        Splitter --> Embed["src/embedding_model.py<br>MiniLM-L12-v2 (384-d)"]
+        Splitter --> BM25_Idx["vector_db/bm25_index.pkl<br>(RankBM25Okapi)"]
+        Embed --> FAISS_Idx["vector_db/document.index<br>(FAISS IndexFlatIP)"]
     end
 
     subgraph RUNTIME ["🚀 Runtime Query & Retrieval Pipeline (src/rag_pipeline.py)"]
-        Query([👤 User Query]) --> QT["src/query_transform.py\nDomain Slang Normalize"]
-        QT --> Dense["Dense Retrieval\nFAISS Cosine Sim"]
-        QT --> Sparse["Sparse Retrieval\nBM25 Okapi"]
-        Dense --> RRF["src/hybrid_retriever.py\nReciprocal Rank Fusion"]
+        Query(["👤 User Query"]) --> QT["src/query_transform.py<br>Domain Slang Normalize"]
+        QT --> Dense["Dense Retrieval<br>FAISS Cosine Sim"]
+        QT --> Sparse["Sparse Retrieval<br>BM25 Okapi"]
+        Dense --> RRF["src/hybrid_retriever.py<br>Reciprocal Rank Fusion"]
         Sparse --> RRF
         RRF --> Candidates[("Top-20 Candidate Chunks")]
-        Candidates --> Reranker["src/rerankers.py\nCross-Encoder bge-reranker-v2-m3"]
+        Candidates --> Reranker["src/rerankers.py<br>Cross-Encoder bge-reranker-v2-m3"]
         Reranker --> TopK[("Top-3 Grounded Chunks")]
     end
 
     subgraph GENERATION ["🤖 Generation & Guardrail Pipeline (src/generator.py)"]
-        TopK --> Guard{Chunks Found?}
-        Guard -- "No (Empty)" --> Fallback["Return NO_CONTEXT_MESSAGE\n(Guardrail Triggered)"]
-        Guard -- "Yes" --> Prompt["src/prompt_templates.py\nSystem Prompt + Citations"]
-        History[("src/memory.py\nSliding Window (6 Turns)")] --> Prompt
-        Prompt --> LLM["LLM (Temperature=0.2)\nOllama / OpenAI / Gemini"]
-        LLM --> Response([✅ Final Answer with Citations [n]])
+        TopK --> Guard{"Chunks Found?"}
+        Guard -- "No (Empty)" --> Fallback["Return NO_CONTEXT_MESSAGE<br>(Guardrail Triggered)"]
+        Guard -- "Yes" --> Prompt["src/prompt_templates.py<br>System Prompt + Citations"]
+        History[("src/memory.py<br>Sliding Window (6 Turns)")] --> Prompt
+        Prompt --> LLM["LLM (Temperature=0.2)<br>Ollama / OpenAI / Gemini"]
+        LLM --> Response(["✅ Final Answer with Citations"])
     end
 ```
 
