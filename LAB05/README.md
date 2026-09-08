@@ -62,38 +62,22 @@
 
 ---
 
-## 🏗️ 2. สถาปัตยกรรมและโครงสร้างทางเทคนิค (LAB04 Architecture & Mathematics)
+## 📋 2. ตารางสรุป 10 ปัญหาและแนวทางการแก้ไข
 
-```mermaid
-flowchart TD
-    subgraph INGESTION ["📥 Ingestion & Indexing Pipeline (build_index.py)"]
-        Raw["📄 qa_looseweight.txt<br>(78 Q&A pairs)"] --> Loader["src/document_loader.py<br>Block-based Parser"]
-        Loader --> Splitter["src/text_splitter.py<br>Chunk: 400 | Overlap: 50"]
-        Splitter --> Embed["src/embedding_model.py<br>MiniLM-L12-v2 (384-d)"]
-        Splitter --> BM25_Idx["vector_db/bm25_index.pkl<br>(RankBM25Okapi)"]
-        Embed --> FAISS_Idx["vector_db/document.index<br>(FAISS IndexFlatIP)"]
-    end
+| # | ปัญหาที่พบในระบบ | จุดที่เกิดใน Source Code | สาเหตุหลัก | แนวทางการแก้ไขจริงในระบบ |
+|:---:|---|---|---|---|
+| 🛑 **1** | **Hallucination** (ตอบมั่วเมื่อไม่มีข้อมูล) | `src/generator.py` | LLM พยายามเดาคำตอบเองเมื่อ Context ว่าง | ดัก `if not chunks: return NO_CONTEXT_MESSAGE` ทันที |
+| 🔤 **2** | **Vocabulary Mismatch** (ค้นคำสแลงไม่เจอ) | `src/embedding_model.py` | Bag-of-Words ไม่เข้าใจความหมายและไม่สนลำดับคำ | ใช้ Transformer Embedding จับความหมายเชิงบริบท |
+| 🧹 **3** | **Data Quality** (คำตอบหลายบรรทัดถูกตัดทิ้ง) | `src/document_loader.py` | Parser รีเซ็ตค่าทิ้งหลังพบบรรทัด `A:` แรก | ปรับเป็น Block-based Parser อ่านสะสมจนจบบล็อก |
+| ✂️ **4** | **Chunking Truncation** (ตัดคำขาดกลางคำ) | `src/text_splitter.py` | ตัดตามจำนวนอักขระ คำว่า `behavioral` ขาดเป็น `lo` / `vioral` | ตัดที่ขอบเขตคำ (Whitespace) และแปะหัวข้อคำถามทุก Chunk |
+| 🏷️ **5** | **Metadata Isolation** (ดึงข้อมูลผิดกลุ่มเป้าหมาย) | `src/retriever.py` | ค้นหาทั่วไปอาจดึงคำแนะนำคนปกติไปตอบผู้ป่วยโรคไต | แนบ Metadata `category` และทำ Pre-filtering กรองกลุ่มเฉพาะ |
+| ⚡ **6** | **First-Stage Ranking** (เรื่องเฉพาะทางตกอันดับ) | `src/rerankers.py` | Bi-encoder ให้น้ำหนักคำกว้างๆ (เช่น weight, diet) สูงเกินไป | ดึง 20 ผู้เข้ารอบ แล้วใช้ Cross-Encoder จัดอันดับใหม่สู่ Top-3 |
+| 🎯 **7** | **Generation Distortion** (บิดเบือนตัวเลข) | `src/generator.py` | LLM สรุปความผิดพลาด หรือค่า Temperature สูงเกินไป | ลด `Temperature=0.2` และบังคับให้อ้างอิงตัวเลขตาม Context |
+| ⚙️ **8** | **Config Trade-offs** (ระบบช้า/เปลืองค่า API) | `config.py` | เปิดทุกฟังก์ชันเสริมทำให้ Latency พุ่งสูง | จัด Profile การทำงาน: High-Speed (18ms) vs Precision (2.5s) |
+| 📈 **9** | **Evaluation Mismatch** (คะแนน Hit@1 ต่ำผิดปกติ) | `evaluation/build_golden_set.py` | Golden Set แมปชี้ไปเฉพาะ Chunk ที่ 1 แทนที่จะเป็นทุก Chunk | แก้ให้ครอบคลุมทุก Chunk ของคำถามนั้น (Hit@1 พุ่งเป็น 88.5%) |
+| 🐛 **10** | **Pipeline Bugs** (KeyError และสแลงค้างโดเมน) | `evaluation/eval_generation.py`<br>`src/query_transform.py` | คีย์เวลาไม่ตรงกัน (`'รวม'` vs `'Total'`) และตารางสแลงเก่าค้าง | แก้คีย์ให้ตรงกัน และเปลี่ยนเป็นสแลงด้านการลดน้ำหนัก |
 
-    subgraph RUNTIME ["🚀 Runtime Query & Retrieval Pipeline (src/rag_pipeline.py)"]
-        Query(["👤 User Query"]) --> QT["src/query_transform.py<br>Domain Slang Normalize"]
-        QT --> Dense["Dense Retrieval<br>FAISS Cosine Sim"]
-        QT --> Sparse["Sparse Retrieval<br>BM25 Okapi"]
-        Dense --> RRF["src/hybrid_retriever.py<br>Reciprocal Rank Fusion"]
-        Sparse --> RRF
-        RRF --> Candidates[("Top-20 Candidate Chunks")]
-        Candidates --> Reranker["src/rerankers.py<br>Cross-Encoder bge-reranker-v2-m3"]
-        Reranker --> TopK[("Top-3 Grounded Chunks")]
-    end
-
-    subgraph GENERATION ["🤖 Generation & Guardrail Pipeline (src/generator.py)"]
-        TopK --> Guard{"Chunks Found?"}
-        Guard -- "No (Empty)" --> Fallback["Return NO_CONTEXT_MESSAGE<br>(Guardrail Triggered)"]
-        Guard -- "Yes" --> Prompt["src/prompt_templates.py<br>System Prompt + Citations"]
-        History[("src/memory.py<br>Sliding Window (6 Turns)")] --> Prompt
-        Prompt --> LLM["LLM (Temperature=0.2)<br>Ollama / OpenAI / Gemini"]
-        LLM --> Response(["✅ Final Answer with Citations"])
-    end
-```
+---
 
 ### 📐 สูตรคณิตศาสตร์และอัลกอริทึมที่ใช้ในระบบ:
 
