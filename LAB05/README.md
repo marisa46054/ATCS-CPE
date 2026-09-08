@@ -1,15 +1,6 @@
 # 📊 รายงานการวิเคราะห์: “ปัญหาและการแก้ไขปัญหาของ RAG System”
 ## 🥗 การวิเคราะห์และปรับปรุงระบบถาม-ตอบด้านโภชนาการและการลดน้ำหนัก (Weight Loss & Nutrition RAG System)
 
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FAISS](https://img.shields.io/badge/Vector_DB-FAISS_IndexFlatIP-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Transformers](https://img.shields.io/badge/Embedding-MiniLM--L12--v2-FF6F00?style=for-the-badge&logo=huggingface&logoColor=white)
-![Reranker](https://img.shields.io/badge/Re--ranking-BGE--Reranker--v2-7928CA?style=for-the-badge&logo=pytorch&logoColor=white)
-![Status](https://img.shields.io/badge/Tests_Passing-10%2F10_Suite-success?style=for-the-badge&logo=checkmarx&logoColor=white)
-
-</div>
 
 > [!NOTE]
 > ### 📌 ข้อมูลแล็ป
